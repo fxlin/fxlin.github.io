@@ -11,7 +11,7 @@ At Purdue, I am part of Center for Resilient Infrastructures, Systems, and Proce
 [Why Purdue Computer Eng?](https://engineering.purdue.edu/ComputerEngineering/) 
 | [CompE graduate seminar](https://engineering.purdue.edu/~xzl/gradtalks/index.html)
 | [To PhD applicants](https://engineering.purdue.edu/~xzl/posts/hiring.html)
-| [To signature requesters](https://engineering.purdue.edu/~xzl/sign.html)
+| [To signature requesters](/sign.html)
 
 -----
 ### Contact
