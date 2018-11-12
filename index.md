@@ -2,7 +2,7 @@
 
 Assistant Professor | Electrical and Computer Engineering | Purdue
 
-[Name in Chinese](https://engineering.purdue.edu/~xzl/rice/Chinese/name.jpg)
+[Name in Chinese](/img/name.jpg)
 
 I completed my PhD in Computer Science at Rice (2014). I got my M.S. in CS (2008) and B.S. in Automation (2006), both from Tsinghua University. I grew up in [Chongqing](http://upload.wikimedia.org/wikipedia/commons/6/60/Chongqing_Night_Yuzhong.jpg) "the city of hills". 
 
