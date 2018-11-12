@@ -2,7 +2,7 @@
 
 Assistant Professor | Electrical and Computer Engineering | Purdue
 
-[Name in Chinese](https://engineering.purdue.edu/~xzl/rice/Chinese/name.jpg) to maintain and preview the content for your website in Markdown files.
+[Name in Chinese](https://engineering.purdue.edu/~xzl/rice/Chinese/name.jpg)
 
 I completed my PhD in Computer Science at Rice (2014). I got my M.S. in CS (2008) and B.S. in Automation (2006), both from Tsinghua University. I grew up in [Chongqing](http://upload.wikimedia.org/wikipedia/commons/6/60/Chongqing_Night_Yuzhong.jpg) "the city of hills". 
 
@@ -15,34 +15,34 @@ At Purdue, I am part of Center for Resilient Infrastructures, Systems, and Proce
 | [To PhD applicants](https://engineering.purdue.edu/~xzl/posts/hiring.html)
 | [To signature requesters](https://engineering.purdue.edu/~xzl/sign.html)
 
-### Markdown
+### Updates
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Check the [group website](http://xsel.rocks/) for research activities.
 
-```markdown
-Syntax highlighted code block
+- 2017-08: Going to teach Data structures (ECE368) Fall 2017.
 
-# Header 1
-## Header 2
-### Header 3
+- 2017-08: Received a NSF grant (SaTC Core).
 
-- Bulleted
-- List
+- 2016-09: Going to teach OS design & impl (ECE695) Spring 2017.
 
-1. Numbered
-2. List
+- 2016-07: Received a NSF grant (CSR Core).
 
-**Bold** and _Italic_ and `Code` text
+- 2016-07: Invited to attend Microsoft faculty summit.
 
-[Link](url) and ![Image](src)
-```
+- 2016-02: Google research award.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- 2015-08: Going to teach OS design & impl (ECE695) Spring 2016.
 
-### Jekyll Themes
+- 2015-06: First time acting as one paper's last author (ApSys’15).
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fxlin/fxlin.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- 2015-01: First NSF proposal funded (CISE: CRII).
 
-### Support or Contact
+- 2014-08: Started at Purdue as an assistant professor in ECE.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Services
+
+- TPC: HOTMOBILE19 | SECON16 | HOTPOWER15 | ISLPED15 | SECON15 | MOBIGAME15 | ICC15
+
+- ERC: ASPLOS19 | MOBISYS17 | ASPLOS16 | ASPLOS15 | ASPLOS14
+
+- Reviewers: UBICOMP15 | HOTMOBILE15 | DSN14 | ASPLOS13 | MOBISYS12 | PERCOM12 ... 
