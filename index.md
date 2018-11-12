@@ -1,8 +1,6 @@
 ## Felix Xiaozhu Lin
 
-Assistant Professor | Electrical and Computer Engineering | Purdue
-
-[Name in Chinese](/img/name.jpg)
+Assistant Professor | Electrical and Computer Engineering | Purdue | [Name in Chinese](/img/name.jpg)
 
 I completed my PhD in Computer Science at Rice (2014). I got my M.S. in CS (2008) and B.S. in Automation (2006), both from Tsinghua University. I grew up in [Chongqing](http://upload.wikimedia.org/wikipedia/commons/6/60/Chongqing_Night_Yuzhong.jpg) "the city of hills". 
 
@@ -14,6 +12,31 @@ At Purdue, I am part of Center for Resilient Infrastructures, Systems, and Proce
 | [CompE graduate seminar](https://engineering.purdue.edu/~xzl/gradtalks/index.html)
 | [To PhD applicants](https://engineering.purdue.edu/~xzl/posts/hiring.html)
 | [To signature requesters](https://engineering.purdue.edu/~xzl/sign.html)
+
+-----
+### Contact
+
+**Office** EE324B  **Phone** 765-496-6610
+
+**Mailing Address**
+
+```
+PURDUE UNIV, ECE, EE BLDG
+465 NORTHWESTERN AVE
+WEST LAFAYETTE, IN 47907
+```
+
+(Full version)
+```
+Purdue University
+School of Electrical and Computer Engineering
+Electrical Engineering Building
+465 Northwestern Ave.
+West Lafayette, Indiana 47907-2035
+```
+
+-----
+
 
 ### Updates
 
