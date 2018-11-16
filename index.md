@@ -15,13 +15,13 @@ My current work base on two theses:
 Sample projects:
 ### App-defined OS 
 * For stream analytics: a runtime [for manycores](https://xsel.rocks/p/streambox) and [for high-bandwidth memory](). 
-* For video analytics: [a data store](https://arxiv.org/abs/1810.01794) that controls video formats for catering to algorithmic consumers. 
+* For video analytics: [a data store](https://arxiv.org/abs/1810.01794) catering to algorithmic consumers. 
 
 ### Taming OS kernels
 * [Transkernel]( https://arxiv.org/abs/1811.05000) for executing unmodified Linux drivers on microcontroller cores.
 * [Power sandbox](https://xsel.rocks/p/psbox) that redefines power awareness.
 
- I work with a group of graduate students who (sometimes) buy my arguments above. See the [group page](https://xsel.rocks) for paper list, etc.
+At Purdue, I work with a group of graduate students who (sometimes) buy my arguments above. See the [group page](https://xsel.rocks) for paper list, etc.
 
 ## Useful 
 
