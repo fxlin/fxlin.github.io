@@ -21,7 +21,7 @@ Sample projects:
 * [Transkernel]( https://arxiv.org/abs/1811.05000) for executing unmodified Linux drivers on microcontroller cores.
 * [Power sandbox](https://engineering.purdue.edu/~xzl/xsel/p/psbox/index.html) that redefines power awareness.
 
-At Purdue, I work with a group of graduate students who (sometimes) buy my arguments above. See the [group page](https://xsel.rocks) for paper list, etc.
+At Purdue, I work with a group of graduate students who (sometimes) buy my arguments above. See the [group page](http://xsel.rocks) for paper list, etc.
 
 ## Useful 
 
