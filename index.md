@@ -6,7 +6,7 @@ PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automat
 <!--- 
 **I care system software for addressing challenges raised by new workloads and new hardware. My recent work includes OS support for stream processing, for heterogeneous memory, and for wearable devices.**
 -->
-## Research
+## Research ([Publication](https://engineering.purdue.edu/~xzl/xsel/papers.html))
 I care about systems software, mainly for computers of which power in the (10 mW, 500 W) range. These cover IoT sensors, edge nodes, and (single) servers. 
 My current work base on two theses: 
 1. OS are defined by important apps 
@@ -14,12 +14,12 @@ My current work base on two theses:
 
 Sample projects:
 ### App-defined OS 
-* For stream analytics: a runtime [for manycores](https://xsel.rocks/p/streambox) and [for high-bandwidth memory](). 
+* For stream analytics: a runtime [for manycores](https://engineering.purdue.edu/~xzl/xsel/p/streambox/index.html) and [for high-bandwidth memory](). 
 * For video analytics: [a data store](https://arxiv.org/abs/1810.01794) catering to algorithmic consumers. 
 
 ### Taming OS kernels
 * [Transkernel]( https://arxiv.org/abs/1811.05000) for executing unmodified Linux drivers on microcontroller cores.
-* [Power sandbox](https://xsel.rocks/p/psbox) that redefines power awareness.
+* [Power sandbox](https://engineering.purdue.edu/~xzl/xsel/p/psbox/index.html) that redefines power awareness.
 
 At Purdue, I work with a group of graduate students who (sometimes) buy my arguments above. See the [group page](https://xsel.rocks) for paper list, etc.
 
