@@ -6,11 +6,14 @@ PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automat
 <!--- 
 **I care system software for addressing challenges raised by new workloads and new hardware. My recent work includes OS support for stream processing, for heterogeneous memory, and for wearable devices.**
 -->
+
 ## Research ([Publication](https://engineering.purdue.edu/~xzl/xsel/papers.html))
 I care about systems software, mainly for computers of which power in the (10 mW, 500 W) range. These cover IoT sensors, edge nodes, and (single) servers. 
 My current work base on two theses: 
 1. OS are defined by important apps 
 1. Commodity kernels (e.g. Linux) are essentially firmware 
+
+Research overview slides (2018-12): [AI, app-defined OS, and the ossified Linux kernel](/two-inquiries-v3.pdf)
 
 Sample projects:
 ### App-defined OS 
