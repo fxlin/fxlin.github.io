@@ -13,9 +13,8 @@ My current work base on two theses:
 1. OS are defined by important apps 
 1. Commodity kernels (e.g. Linux) are essentially firmware 
 
-Research overview slides (2018-12): [AI, app-defined OS, and the ossified Linux kernel](/two-inquiries-v3.pdf)
+**Overview slides (2018-12)** [PDF](/two-inquiries-v3.pdf)
 
-Sample projects:
 ### App-defined OS 
 * For stream analytics: a runtime [for manycores](https://engineering.purdue.edu/~xzl/xsel/p/streambox/index.html) and [for high-bandwidth memory](). 
 * For video analytics: [a data store](https://arxiv.org/abs/1810.01794) catering to algorithmic consumers. 
