@@ -9,7 +9,7 @@ PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automat
 
 ## Research ([Publication](https://engineering.purdue.edu/~xzl/xsel/papers.html))
 
-**Research overview (2018-12)** [PDF](/two-inquiries-v3.pdf)
+**Overview (2018-12)** [PDF](/two-inquiries-v3.pdf)
 
 I care about systems software, roughly speaking, for computers of which power in the (10 mW, 500 W) range. 
 They include IoT sensors, smartphones, and edge servers. 
@@ -24,7 +24,7 @@ My current work bases on two premises:
 * [Transkernel](https://arxiv.org/abs/1811.05000): executing unmodified Linux drivers on microcontroller cores.
 * [Power sandbox](https://engineering.purdue.edu/~xzl/xsel/p/psbox/index.html): power awareness redefined (Eurosys'18).
 
-At Purdue, I work with a group of graduate students who share the above opinion (sometimes). See our [group page](http://xsel.rocks).
+At Purdue, I work with a group of graduate students who share the above opinion (sometimes). See our [group page](http://xsel.rocks) for all the projects.
 
 ## Useful 
 
