@@ -17,12 +17,12 @@ They include IoT sensors, smartphones, and edge servers.
 My current work bases on two premises: 
 
 ### 1. OSes are defined by important apps 
-* StreamBox: A stream processing engines exploiting [manycores](https://engineering.purdue.edu/~xzl/xsel/p/streambox/index.html) (ATC'17)and [hybrid high-bandwidth memory]() (ASPLOS'19). 
+* StreamBox: A stream processing engines exploiting [manycores](https://engineering.purdue.edu/~xzl/xsel/p/streambox/index.html) (ATC'17) and [hybrid high-bandwidth memory]() (ASPLOS'19). 
 * A [data store](https://arxiv.org/abs/1810.01794) serving retrospective queries over large videos (Eurosys'19). 
 
 ### 2. Commodity kernels (e.g. Linux) are essentially firmware 
 * [Transkernel](https://arxiv.org/abs/1811.05000): executing unmodified Linux drivers on microcontroller cores.
-* [Power sandbox](https://engineering.purdue.edu/~xzl/xsel/p/psbox/index.html) (Eurosys'18): power awareness redefined (Eurosys'18).
+* [Power sandbox](https://engineering.purdue.edu/~xzl/xsel/p/psbox/index.html): power awareness redefined (Eurosys'18).
 
 At Purdue, I work with a group of graduate students who share the above opinion (sometimes). See our [group page](http://xsel.rocks).
 
