@@ -8,22 +8,23 @@ PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automat
 -->
 
 ## Research ([Publication](https://engineering.purdue.edu/~xzl/xsel/papers.html))
-I care about systems software, mainly for computers of which power in the (10 mW, 500 W) range. These cover IoT sensors, edge nodes, and (single) servers. 
-My current work bases on two premises: 
-1. OSes are defined by important apps 
-1. Commodity kernels (e.g. Linux) are essentially firmware 
 
 **Research overview (2018-12)** [PDF](/two-inquiries-v3.pdf)
 
-### App-defined OS 
-* Stream analytics: runtimes [for manycores](https://engineering.purdue.edu/~xzl/xsel/p/streambox/index.html) and [for high-bandwidth memory](). 
-* Video analytics: a [data store](https://arxiv.org/abs/1810.01794) catering to video queries. 
+I care about systems software, roughly speaking, for computers of which power in the (10 mW, 500 W) range. 
+These are exemplified by IoT sensors, smartphones, and edge servers. 
 
-### Taming OS kernels
-* [Transkernel]( https://arxiv.org/abs/1811.05000) for executing unmodified Linux drivers on microcontroller cores.
-* [Power sandbox](https://engineering.purdue.edu/~xzl/xsel/p/psbox/index.html) that redefines power awareness.
+My current work bases on two premises: 
 
-At Purdue, I work with a group of graduate students who buy my arguments above (sometimes). See the [group page](http://xsel.rocks) for paper list, etc.
+### 1. OSes are defined by important apps 
+* Runtimes for stream analytics that exploit [manycores](https://engineering.purdue.edu/~xzl/xsel/p/streambox/index.html) and [hybrid high-bandwidth memory](). 
+* Video analytics: a [data store](https://arxiv.org/abs/1810.01794) serving queries over large videos. 
+
+### 2. Commodity kernels (e.g. Linux) are essentially firmware 
+* [Transkernel](https://arxiv.org/abs/1811.05000): executing unmodified Linux drivers on microcontroller cores.
+* [Power sandbox](https://engineering.purdue.edu/~xzl/xsel/p/psbox/index.html): power awareness redefined.
+
+At Purdue, I work with a group of graduate students who buy my arguments above (sometimes). See our [group page](http://xsel.rocks).
 
 ## Useful 
 
