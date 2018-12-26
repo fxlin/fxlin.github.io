@@ -12,7 +12,7 @@ PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automat
 **Research overview (2018-12)** [PDF](/two-inquiries-v3.pdf)
 
 I care about systems software, roughly speaking, for computers of which power in the (10 mW, 500 W) range. 
-These are exemplified by IoT sensors, smartphones, and edge servers. 
+They include IoT sensors, smartphones, and edge servers. 
 
 My current work bases on two premises: 
 
