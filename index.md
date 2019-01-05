@@ -7,7 +7,7 @@ PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automat
 **I care system software for addressing challenges raised by new workloads and new hardware. My recent work includes OS support for stream processing, for heterogeneous memory, and for wearable devices.**
 -->
 
-## Research ([Publication](https://engineering.purdue.edu/~xzl/xsel/papers.html))
+## Research ([Publication](https://fxlin.github.io/xsel/papers.html))
 
 **Overview (2018-12)** [PDF](/two-inquiries-v3.pdf)
 
