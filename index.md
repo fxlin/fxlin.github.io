@@ -32,6 +32,24 @@ I worked on smartphone OS for my PhD, e.g. the [K2 project](http://www.k2os.org)
 At Purdue, I work with a group of graduate students who share the above opinion (sometimes). See our [group page](http://xsel.rocks) for all the projects.
 -->
 
+## Contact
+
+  * Office EE324B
+  * Phone 765-496-6610
+
+** Mailing Address
+```
+PURDUE UNIV, ECE, EE BLDG
+465 NORTHWESTERN AVE
+WEST LAFAYETTE, IN 47907
+(Full version)
+Purdue University
+School of Electrical and Computer Engineering
+Electrical Engineering Building
+465 Northwestern Ave.
+West Lafayette, Indiana 47907-2035
+```
+
 ## Useful 
 
 [Why Purdue Computer Eng?](https://engineering.purdue.edu/ComputerEngineering/) 
