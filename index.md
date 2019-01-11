@@ -19,7 +19,7 @@ At Purdue, I work with a group of graduate students who share interest in system
 Our current work bases on two premises: 
 
 ### 1. OSes are defined by important apps 
-* StreamBox: A stream processing engines exploiting manycores ([ATC'17](https:// .edu/~xzl/xsel/p/streambox/index.html)) and hybrid high-bandwidth memory (ASPLOS'19). 
+* StreamBox: A stream processing engines exploiting manycores ([ATC'17](https:// .edu/~xzl/xsel/p/streambox/index.html)) and hybrid high-bandwidth memory ([ASPLOS'19](https://arxiv.org/abs/1901.01328)). 
 * A data store serving retrospective queries over large videos ([Eurosys'19](https://arxiv.org/abs/1810.01794)). 
 
 ### 2. Commodity kernels (e.g. Linux) are essentially firmware 
