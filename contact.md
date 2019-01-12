@@ -1,5 +1,9 @@
 ### Contact
 
+```
+xzl@purdue.edu
+```
+
 **Office** EE324B  **Phone** 765-496-6610
 
 **Mailing Address**

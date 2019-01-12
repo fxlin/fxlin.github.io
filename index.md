@@ -1,8 +1,11 @@
 ## Felix Xiaozhu Lin
 
-Asst. Prof. | PhD in CS | Purdue ECE
+Asst. Prof. | PhD in CS | Purdue ECE | [Contact](/contact.html)
 
 PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automation (Tsinghua 2006). Grew up in [Chongqing](http://upload.wikimedia.org/wikipedia/commons/6/60/Chongqing_Night_Yuzhong.jpg) "the city of hills". 
+
+
+
 <!--- 
 **I care system software for addressing challenges raised by new workloads and new hardware. My recent work includes OS support for stream processing, for heterogeneous memory, and for wearable devices.**
 -->
@@ -31,24 +34,6 @@ I worked on smartphone OS for my PhD, e.g. the [K2 project](http://www.k2os.org)
 <!---
 At Purdue, I work with a group of graduate students who share the above opinion (sometimes). See our [group page](http://xsel.rocks) for all the projects.
 -->
-
-## Contact
-
-  * Office EE324B
-  * Phone 765-496-6610
-
-** Mailing Address
-```
-PURDUE UNIV, ECE, EE BLDG
-465 NORTHWESTERN AVE
-WEST LAFAYETTE, IN 47907
-(Full version)
-Purdue University
-School of Electrical and Computer Engineering
-Electrical Engineering Building
-465 Northwestern Ave.
-West Lafayette, Indiana 47907-2035
-```
 
 ## Useful 
 
