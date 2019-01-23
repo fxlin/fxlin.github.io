@@ -10,7 +10,7 @@ PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automat
 **I care system software for addressing challenges raised by new workloads and new hardware. My recent work includes OS support for stream processing, for heterogeneous memory, and for wearable devices.**
 -->
 
-## Research ([Publication](https://fxlin.github.io/xsel/papers.html))
+## Research ([Publication](https://thexsel.github.io/papers.html))
 
 **Overview (2018-12)** [PDF](/two-inquiries-v3.pdf)
 
@@ -22,7 +22,7 @@ At Purdue, I work with a group of graduate students who share interest in system
 Our current work bases on two premises: 
 
 ### 1. OSes are defined by important apps 
-* StreamBox: A stream processing engines exploiting manycores ([ATC'17](https://fxlin.github.io/xsel/p/streambox/index.html)) and hybrid high-bandwidth memory ([ASPLOS'19](https://arxiv.org/abs/1901.01328)). 
+* StreamBox: A stream processing engines exploiting manycores ([ATC'17](https://thexsel.github.io/p/streambox/index.html)) and hybrid high-bandwidth memory ([ASPLOS'19](https://arxiv.org/abs/1901.01328)). 
 * A data store serving retrospective queries over large videos ([Eurosys'19](https://arxiv.org/abs/1810.01794)). 
 
 ### 2. Commodity kernels (e.g. Linux) are essentially firmware 
