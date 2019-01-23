@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="AsciiDoc 8.6.9">
+<title>Purdue Computer Engineering Graduate Seminar</title>
+<style type="text/css">
+/* Shared CSS for AsciiDoc xhtml11 and html5 backends */
+
+/* Default font. */
+body {
+  font-family: Georgia,serif;
+}
+
+/* Title font. */
+h1, h2, h3, h4, h5, h6,
+div.title, caption.title,
+thead, p.table.header,
+#toctitle,
+#author, #revnumber, #revdate, #revremark,
+#footer {
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+body {
+  margin: 1em 5% 1em 5%;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+a:visited {
+  color: fuchsia;
+}
+
+em {
+  font-style: italic;
+  color: navy;
+}
+
+strong {
+  font-weight: bold;
+  color: #083194;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #527bbd;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+  line-height: 1.3;
+}
+
+h1, h2, h3 {
+  border-bottom: 2px solid silver;
+}
+h2 {
+  padding-top: 0.5em;
+}
+h3 {
+  float: left;
+}
+h3 + * {
+  clear: left;
+}
+h5 {
+  font-size: 1.0em;
+}
+
+div.sectionbody {
+  margin-left: 0;
+}
+
+hr {
+  border: 1px solid silver;
+}
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+ul, ol, li > p {
+  margin-top: 0;
+}
+ul > li     { color: #aaa; }
+ul > li > * { color: black; }
+
+.monospaced, code, pre {
+  font-family: "Courier New", Courier, monospace;
+  font-size: inherit;
+  color: navy;
+  padding: 0;
+  margin: 0;
+}
+pre {
+  white-space: pre-wrap;
+}
+
+#author {
+  color: #527bbd;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+#email {
+}
+#revnumber, #revdate, #revremark {
+}
+
+#footer {
+  font-size: small;
+  border-top: 2px solid silver;
+  padding-top: 0.5em;
+  margin-top: 4.0em;
+}
+#footer-text {
+  float: left;
+  padding-bottom: 0.5em;
+}
+#footer-badges {
+  float: right;
+  padding-bottom: 0.5em;
+}
+
+#preamble {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+div.imageblock, div.exampleblock, div.verseblock,
+div.quoteblock, div.literalblock, div.listingblock, div.sidebarblock,
+div.admonitionblock {
+  margin-top: 1.0em;
+  margin-bottom: 1.5em;
+}
+div.admonitionblock {
+  margin-top: 2.0em;
+  margin-bottom: 2.0em;
+  margin-right: 10%;
+  color: #606060;
+}
+
+div.content { /* Block element content. */
+  padding: 0;
+}
+
+/* Block element titles. */
+div.title, caption.title {
+  color: #527bbd;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 1.0em;
+  margin-bottom: 0.5em;
+}
+div.title + * {
+  margin-top: 0;
+}
+
+td div.title:first-child {
+  margin-top: 0.0em;
+}
+div.content div.title:first-child {
+  margin-top: 0.0em;
+}
+div.content + div.title {
+  margin-top: 0.0em;
+}
+
+div.sidebarblock > div.content {
+  background: #ffffee;
+  border: 1px solid #dddddd;
+  border-left: 4px solid #f0f0f0;
+  padding: 0.5em;
+}
+
+div.listingblock > div.content {
+  border: 1px solid #dddddd;
+  border-left: 5px solid #f0f0f0;
+  background: #f8f8f8;
+  padding: 0.5em;
+}
+
+div.quoteblock, div.verseblock {
+  padding-left: 1.0em;
+  margin-left: 1.0em;
+  margin-right: 10%;
+  border-left: 5px solid #f0f0f0;
+  color: #888;
+}
+
+div.quoteblock > div.attribution {
+  padding-top: 0.5em;
+  text-align: right;
+}
+
+div.verseblock > pre.content {
+  font-family: inherit;
+  font-size: inherit;
+}
+div.verseblock > div.attribution {
+  padding-top: 0.75em;
+  text-align: left;
+}
+/* DEPRECATED: Pre version 8.2.7 verse style literal block. */
+div.verseblock + div.attribution {
+  text-align: left;
+}
+
+div.admonitionblock .icon {
+  vertical-align: top;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #527bbd;
+  padding-right: 0.5em;
+}
+div.admonitionblock td.content {
+  padding-left: 0.5em;
+  border-left: 3px solid #dddddd;
+}
+
+div.exampleblock > div.content {
+  border-left: 3px solid #dddddd;
+  padding-left: 0.5em;
+}
+
+div.imageblock div.content { padding-left: 0; }
+span.image img { border-style: none; vertical-align: text-bottom; }
+a.image:visited { color: white; }
+
+dl {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+dt {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  font-style: normal;
+  color: navy;
+}
+dd > *:first-child {
+  margin-top: 0.1em;
+}
+
+ul, ol {
+    list-style-position: outside;
+}
+ol.arabic {
+  list-style-type: decimal;
+}
+ol.loweralpha {
+  list-style-type: lower-alpha;
+}
+ol.upperalpha {
+  list-style-type: upper-alpha;
+}
+ol.lowerroman {
+  list-style-type: lower-roman;
+}
+ol.upperroman {
+  list-style-type: upper-roman;
+}
+
+div.compact ul, div.compact ol,
+div.compact p, div.compact p,
+div.compact div, div.compact div {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+
+tfoot {
+  font-weight: bold;
+}
+td > div.verse {
+  white-space: pre;
+}
+
+div.hdlist {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+div.hdlist tr {
+  padding-bottom: 15px;
+}
+dt.hdlist1.strong, td.hdlist1.strong {
+  font-weight: bold;
+}
+td.hdlist1 {
+  vertical-align: top;
+  font-style: normal;
+  padding-right: 0.8em;
+  color: navy;
+}
+td.hdlist2 {
+  vertical-align: top;
+}
+div.hdlist.compact tr {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.comment {
+  background: yellow;
+}
+
+.footnote, .footnoteref {
+  font-size: 0.8em;
+}
+
+span.footnote, span.footnoteref {
+  vertical-align: super;
+}
+
+#footnotes {
+  margin: 20px 0 20px 0;
+  padding: 7px 0 0 0;
+}
+
+#footnotes div.footnote {
+  margin: 0 0 5px 0;
+}
+
+#footnotes hr {
+  border: none;
+  border-top: 1px solid silver;
+  height: 1px;
+  text-align: left;
+  margin-left: 0;
+  width: 20%;
+  min-width: 100px;
+}
+
+div.colist td {
+  padding-right: 0.5em;
+  padding-bottom: 0.3em;
+  vertical-align: top;
+}
+div.colist td img {
+  margin-top: 0.3em;
+}
+
+@media print {
+  #footer-badges { display: none; }
+}
+
+#toc {
+  margin-bottom: 2.5em;
+}
+
+#toctitle {
+  color: #527bbd;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 1.0em;
+  margin-bottom: 0.1em;
+}
+
+div.toclevel0, div.toclevel1, div.toclevel2, div.toclevel3, div.toclevel4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+div.toclevel2 {
+  margin-left: 2em;
+  font-size: 0.9em;
+}
+div.toclevel3 {
+  margin-left: 4em;
+  font-size: 0.9em;
+}
+div.toclevel4 {
+  margin-left: 6em;
+  font-size: 0.9em;
+}
+
+span.aqua { color: aqua; }
+span.black { color: black; }
+span.blue { color: blue; }
+span.fuchsia { color: fuchsia; }
+span.gray { color: gray; }
+span.green { color: green; }
+span.lime { color: lime; }
+span.maroon { color: maroon; }
+span.navy { color: navy; }
+span.olive { color: olive; }
+span.purple { color: purple; }
+span.red { color: red; }
+span.silver { color: silver; }
+span.teal { color: teal; }
+span.white { color: white; }
+span.yellow { color: yellow; }
+
+span.aqua-background { background: aqua; }
+span.black-background { background: black; }
+span.blue-background { background: blue; }
+span.fuchsia-background { background: fuchsia; }
+span.gray-background { background: gray; }
+span.green-background { background: green; }
+span.lime-background { background: lime; }
+span.maroon-background { background: maroon; }
+span.navy-background { background: navy; }
+span.olive-background { background: olive; }
+span.purple-background { background: purple; }
+span.red-background { background: red; }
+span.silver-background { background: silver; }
+span.teal-background { background: teal; }
+span.white-background { background: white; }
+span.yellow-background { background: yellow; }
+
+span.big { font-size: 2em; }
+span.small { font-size: 0.6em; }
+
+span.underline { text-decoration: underline; }
+span.overline { text-decoration: overline; }
+span.line-through { text-decoration: line-through; }
+
+div.unbreakable { page-break-inside: avoid; }
+
+
+/*
+ * xhtml11 specific
+ *
+ * */
+
+div.tableblock {
+  margin-top: 1.0em;
+  margin-bottom: 1.5em;
+}
+div.tableblock > table {
+  border: 3px solid #527bbd;
+}
+thead, p.table.header {
+  font-weight: bold;
+  color: #527bbd;
+}
+p.table {
+  margin-top: 0;
+}
+/* Because the table frame attribute is overriden by CSS in most browsers. */
+div.tableblock > table[frame="void"] {
+  border-style: none;
+}
+div.tableblock > table[frame="hsides"] {
+  border-left-style: none;
+  border-right-style: none;
+}
+div.tableblock > table[frame="vsides"] {
+  border-top-style: none;
+  border-bottom-style: none;
+}
+
+
+/*
+ * html5 specific
+ *
+ * */
+
+table.tableblock {
+  margin-top: 1.0em;
+  margin-bottom: 1.5em;
+}
+thead, p.tableblock.header {
+  font-weight: bold;
+  color: #527bbd;
+}
+p.tableblock {
+  margin-top: 0;
+}
+table.tableblock {
+  border-width: 3px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-color: #527bbd;
+  border-collapse: collapse;
+}
+th.tableblock, td.tableblock {
+  border-width: 1px;
+  padding: 4px;
+  border-style: solid;
+  border-color: #527bbd;
+}
+
+table.tableblock.frame-topbot {
+  border-left-style: hidden;
+  border-right-style: hidden;
+}
+table.tableblock.frame-sides {
+  border-top-style: hidden;
+  border-bottom-style: hidden;
+}
+table.tableblock.frame-none {
+  border-style: hidden;
+}
+
+th.tableblock.halign-left, td.tableblock.halign-left {
+  text-align: left;
+}
+th.tableblock.halign-center, td.tableblock.halign-center {
+  text-align: center;
+}
+th.tableblock.halign-right, td.tableblock.halign-right {
+  text-align: right;
+}
+
+th.tableblock.valign-top, td.tableblock.valign-top {
+  vertical-align: top;
+}
+th.tableblock.valign-middle, td.tableblock.valign-middle {
+  vertical-align: middle;
+}
+th.tableblock.valign-bottom, td.tableblock.valign-bottom {
+  vertical-align: bottom;
+}
+
+
+/*
+ * manpage specific
+ *
+ * */
+
+body.manpage h1 {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-top: 2px solid silver;
+  border-bottom: 2px solid silver;
+}
+body.manpage h2 {
+  border-style: none;
+}
+body.manpage div.sectionbody {
+  margin-left: 3em;
+}
+
+@media print {
+  body.manpage div#toc { display: none; }
+}
+
+
+</style>
+<script type="text/javascript">
+/*<![CDATA[*/
+var asciidoc = {  // Namespace.
+
+/////////////////////////////////////////////////////////////////////
+// Table Of Contents generator
+/////////////////////////////////////////////////////////////////////
+
+/* Author: Mihai Bazon, September 2002
+ * http://students.infoiasi.ro/~mishoo
+ *
+ * Table Of Content generator
+ * Version: 0.4
+ *
+ * Feel free to use this script under the terms of the GNU General Public
+ * License, as long as you do not remove or alter this notice.
+ */
+
+ /* modified by Troy D. Hanson, September 2006. License: GPL */
+ /* modified by Stuart Rackham, 2006, 2009. License: GPL */
+
+// toclevels = 1..4.
+toc: function (toclevels) {
+
+  function getText(el) {
+    var text = "";
+    for (var i = el.firstChild; i != null; i = i.nextSibling) {
+      if (i.nodeType == 3 /* Node.TEXT_NODE */) // IE doesn't speak constants.
+        text += i.data;
+      else if (i.firstChild != null)
+        text += getText(i);
+    }
+    return text;
+  }
+
+  function TocEntry(el, text, toclevel) {
+    this.element = el;
+    this.text = text;
+    this.toclevel = toclevel;
+  }
+
+  function tocEntries(el, toclevels) {
+    var result = new Array;
+    var re = new RegExp('[hH]([1-'+(toclevels+1)+'])');
+    // Function that scans the DOM tree for header elements (the DOM2
+    // nodeIterator API would be a better technique but not supported by all
+    // browsers).
+    var iterate = function (el) {
+      for (var i = el.firstChild; i != null; i = i.nextSibling) {
+        if (i.nodeType == 1 /* Node.ELEMENT_NODE */) {
+          var mo = re.exec(i.tagName);
+          if (mo && (i.getAttribute("class") || i.getAttribute("className")) != "float") {
+            result[result.length] = new TocEntry(i, getText(i), mo[1]-1);
+          }
+          iterate(i);
+        }
+      }
+    }
+    iterate(el);
+    return result;
+  }
+
+  var toc = document.getElementById("toc");
+  if (!toc) {
+    return;
+  }
+
+  // Delete existing TOC entries in case we're reloading the TOC.
+  var tocEntriesToRemove = [];
+  var i;
+  for (i = 0; i < toc.childNodes.length; i++) {
+    var entry = toc.childNodes[i];
+    if (entry.nodeName.toLowerCase() == 'div'
+     && entry.getAttribute("class")
+     && entry.getAttribute("class").match(/^toclevel/))
+      tocEntriesToRemove.push(entry);
+  }
+  for (i = 0; i < tocEntriesToRemove.length; i++) {
+    toc.removeChild(tocEntriesToRemove[i]);
+  }
+
+  // Rebuild TOC entries.
+  var entries = tocEntries(document.getElementById("content"), toclevels);
+  for (var i = 0; i < entries.length; ++i) {
+    var entry = entries[i];
+    if (entry.element.id == "")
+      entry.element.id = "_toc_" + i;
+    var a = document.createElement("a");
+    a.href = "#" + entry.element.id;
+    a.appendChild(document.createTextNode(entry.text));
+    var div = document.createElement("div");
+    div.appendChild(a);
+    div.className = "toclevel" + entry.toclevel;
+    toc.appendChild(div);
+  }
+  if (entries.length == 0)
+    toc.parentNode.removeChild(toc);
+},
+
+
+/////////////////////////////////////////////////////////////////////
+// Footnotes generator
+/////////////////////////////////////////////////////////////////////
+
+/* Based on footnote generation code from:
+ * http://www.brandspankingnew.net/archive/2005/07/format_footnote.html
+ */
+
+footnotes: function () {
+  // Delete existing footnote entries in case we're reloading the footnodes.
+  var i;
+  var noteholder = document.getElementById("footnotes");
+  if (!noteholder) {
+    return;
+  }
+  var entriesToRemove = [];
+  for (i = 0; i < noteholder.childNodes.length; i++) {
+    var entry = noteholder.childNodes[i];
+    if (entry.nodeName.toLowerCase() == 'div' && entry.getAttribute("class") == "footnote")
+      entriesToRemove.push(entry);
+  }
+  for (i = 0; i < entriesToRemove.length; i++) {
+    noteholder.removeChild(entriesToRemove[i]);
+  }
+
+  // Rebuild footnote entries.
+  var cont = document.getElementById("content");
+  var spans = cont.getElementsByTagName("span");
+  var refs = {};
+  var n = 0;
+  for (i=0; i<spans.length; i++) {
+    if (spans[i].className == "footnote") {
+      n++;
+      var note = spans[i].getAttribute("data-note");
+      if (!note) {
+        // Use [\s\S] in place of . so multi-line matches work.
+        // Because JavaScript has no s (dotall) regex flag.
+        note = spans[i].innerHTML.match(/\s*\[([\s\S]*)]\s*/)[1];
+        spans[i].innerHTML =
+          "[<a id='_footnoteref_" + n + "' href='#_footnote_" + n +
+          "' title='View footnote' class='footnote'>" + n + "</a>]";
+        spans[i].setAttribute("data-note", note);
+      }
+      noteholder.innerHTML +=
+        "<div class='footnote' id='_footnote_" + n + "'>" +
+        "<a href='#_footnoteref_" + n + "' title='Return to text'>" +
+        n + "</a>. " + note + "</div>";
+      var id =spans[i].getAttribute("id");
+      if (id != null) refs["#"+id] = n;
+    }
+  }
+  if (n == 0)
+    noteholder.parentNode.removeChild(noteholder);
+  else {
+    // Process footnoterefs.
+    for (i=0; i<spans.length; i++) {
+      if (spans[i].className == "footnoteref") {
+        var href = spans[i].getElementsByTagName("a")[0].getAttribute("href");
+        href = href.match(/#.*/)[0];  // Because IE return full URL.
+        n = refs[href];
+        spans[i].innerHTML =
+          "[<a href='#_footnote_" + n +
+          "' title='View footnote' class='footnote'>" + n + "</a>]";
+      }
+    }
+  }
+},
+
+install: function(toclevels) {
+  var timerId;
+
+  function reinstall() {
+    asciidoc.footnotes();
+    if (toclevels) {
+      asciidoc.toc(toclevels);
+    }
+  }
+
+  function reinstallAndRemoveTimer() {
+    clearInterval(timerId);
+    reinstall();
+  }
+
+  timerId = setInterval(reinstall, 500);
+  if (document.addEventListener)
+    document.addEventListener("DOMContentLoaded", reinstallAndRemoveTimer, false);
+  else
+    window.onload = reinstallAndRemoveTimer;
+}
+
+}
+asciidoc.install();
+/*]]>*/
+</script>
+</head>
+<body class="article" style="max-width:1000px">
+<div id="header">
+<h1>Purdue Computer Engineering Graduate Seminar</h1>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph"><p><span class="blue">A place for cool research, thought-provoking questions, and free food!</span></p></div>
+<div class="paragraph"><p>Subscribe to the mailing list <a href="mailto:ececompseminar-list@ecn.purdue.edu">ececompseminar-list@ecn.purdue.edu</a> for annoucements.</p></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_time_amp_place">Time &amp; Place</h2>
+<div class="sectionbody">
+<div class="paragraph"><p>Wed 12.30-1.30pm (subject to change) | EE 317</p></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_participate">Participate!</h2>
+<div class="sectionbody">
+<div class="olist arabic"><ol class="arabic">
+<li>
+<p>
+Go <a href="http://doodle.com/poll/k524wrubifa24dku">here</a> to choose up to 3 viable time slots.
+</p>
+</li>
+<li>
+<p>
+After your time is confirmed, email title, abstract, &amp; bio to <a href="mailto:msaterfi@purdue.edu">Mary Ann</a>.
+</p>
+</li>
+<li>
+<p>
+<span class="red">[NEW]</span> Please add your talk info by editing the seminar <a href="https://wiki.itap.purdue.edu/display/CES/computer+engineering+graduate+seminars">wiki</a>. You will need log in with your Purdue credentials.
+</p>
+<div class="ulist"><ul>
+<li>
+<p>
+Please do so at least one week before the talk.
+</p>
+</li>
+</ul></div>
+</li>
+</ol></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_2016_fall_schedule_tentative">2016 Fall Schedule (tentative)</h2>
+<div class="sectionbody">
+<div class="paragraph"><p><a href="https://wiki.itap.purdue.edu/display/CES/computer+engineering+graduate+seminars">wiki</a></p></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_2016_spring_schedule">2016 Spring Schedule</h2>
+<div class="sectionbody">
+<table class="tableblock frame-topbot grid-none"
+style="
+width:80%;
+">
+<col style="width:10%;">
+<col style="width:20%;">
+<col style="width:60%;">
+<col style="width:10%;">
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top" >Date</th>
+<th class="tableblock halign-left valign-top" >Speaker</th>
+<th class="tableblock halign-left valign-top" >Title</th>
+<th class="tableblock halign-left valign-top" ></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">1/13/2016</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Shankar Narayanan</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">A holistic approach to lowering latency in geo-distributed multi-tier applications</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"><a href="#Shankar.Narayanan">Details</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">1/20/2016</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">1/27/2016</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Youngsol Koh</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Large-scale Image Processing using Amazon EC2 Spot Instances</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"><a href="#koh">Details</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">2/3/2016</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Xiao Wang</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">High Performance Model Based Image Reconstruction</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"><a href="#xiao.wang">Details</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">2/10/2016</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Yiyang Chang</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Robust network design with flexible routing</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"><a href="#chang">Details</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">2/17/2016</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Shin-Yeh Tsai</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Rockies: A Network System for Future Data Center Racks</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"><a href="#tsai">Details</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">2/24/2016</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Nitin</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">MaDSOS: MapReduce with Distributed Stratified Online Sampling</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"><a href="#nitin">Details</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">3/2/2016</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Tsung Tai Yeh</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Pagoda: A Runtime System to Maximize GPU Utilization in Data Parallel Tasks with Limited Parallelism</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"><a href="#yeh">Details</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">3/9/2016</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Hongyu Miao</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Tell your graphics stack that the display is circular</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"><a href="#miao">Details</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">3/16/2016</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Rohan Gandhi</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Yoda: Highly available layer-7 load balancer</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"><a href="#gandhi">Details</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">3/23/2016</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Aurangzeb</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">History-based Piecewise Approximation Scheme for Procedures</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"><a href="#Aurangzeb">Details</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">3/30/2016</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Vinayak Gokhale</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">A Hardware Accelerator for Convolutional Neural Networks</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"><a href="#gokhale">Details</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">4/6/2016</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Tariq Mahmood</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Cost-effective Geo-replicated Cloud Storage with Dynamic Enforcement of Causal Consistency</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"><a href="#mahmood">Details</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">4/13/2016</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Subrata Mitra</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Partial-Parallel-Repair (PPR): A Distributed Technique for Repairing Erasure Coded Storage</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"><a href="#mitra">Details</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">4/20/2016</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Ahmed S. Kaseb</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">A Cloud-Based System Analyzing Big Visual Data from Network Cameras</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"><a href="#kaseb">Details</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">4/27/2016</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">Nikhil Hegde</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock">SPIRIT: A Runtime System for Distributed Tree Applications</p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"><a href="#hegde">Details</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_talks">Talks</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="Shankar.Narayanan">A holistic approach to lowering latency in geo-distributed multi-tier applications</h3>
+<div class="paragraph"><p><em>Shankar Narayanan</em></p></div>
+<div class="paragraph"><p><strong>Abstract</strong></p></div>
+<div class="paragraph"><p>User perceived end-to-end latency of applications have a huge impact on the revenue for many businesses. Service level agreements (SLAs) on such applications often require bounds on the 90th (and higher) percentile latencies, which must be met while scaling to hundreds of thousands of geographically dispersed users. Improving user perceived performance of such large scale, multi-tiered applications is challenging. These applications often have complex operating environments, with many user facing components like web servers and content distribution network (CDN) servers, and many other backend components like application and storage servers. Further, the end user performance often depends on the complex interactions between these components.</p></div>
+<div class="paragraph"><p>The primary focus of my research has been to develop techniques and build systems that help reduce end-to-end application latency. More specifically, it makes the following three contributions. First, it reduces the user facing latency by priority-aware organization of content within the CDNs. Next, it reduces the backend latency through optimal placement of data at the datastore layer taking into account application’s data access patterns and judiciously balancing the forces of latency, consistency and availability. Finally, it improves the performance of the application layer by carefully rerouting requests across different application component replicas. While these solutions can be implemented independently or concurrently at the different layers, each of them explicitly focuses on improving end-to-end application performance.</p></div>
+<div class="paragraph"><p><strong>Bio</strong></p></div>
+<div class="paragraph"><p>Shankar is a PhD candidate at the Department of ECE at Purdue University, working with his advisor Prof. Sanjay Rao. He obtained his Bachelor’s Degree in Computer Science with Anna University, one of the premier engineering institutes in India. Broadly, his research interests are in the areas of Computer Networks, Distributed Systems and Cloud Computing. His work primarily focuses on building systems that improve the performance of geo-distributed, multi-tier applications.</p></div>
+</div>
+<div class="sect2">
+<h3 id="koh">Large-scale Image Processing using Amazon EC2 Spot Instances</h3>
+<div class="paragraph"><p><em>Youngsol Koh</em></p></div>
+<div class="paragraph"><p><strong>Abstract</strong></p></div>
+<div class="paragraph"><p>Many cloud providers such as Microsoft, Amazon, and Google offer scalable computing environment with pay-per-use. However, processing large-scale data using on-demand cloud instances may still be too costly. Archival data, unlike real-time streams, does not have strict time constraints.  Thus, it does not require continuous processing and occasional suspension can be tolerated.  Some cloud vendors (such as Amazon) introduces spot instances that use spare instances with dynamic pricing. Spot instances offer the same performance as on-demand instances at greatly reduced prices but spot instances may be terminated at short notice.  As a result, processing programs may not finish when using spot instances.  This paper introduces a cost-effective system to process large-scale image data using Amazon EC2 (Elastic Compute Cloud) spot instances and Amazon Simple Storage Service (S3). This system uses a check-pointing method to store progress so that processing can resume later if the spot instances are terminated.  Even though using spot instances may prolong the total execution time, our experiments demonstrate that with appropriate bidding strategies, the execution time can be almost the same as using on-demand instances, while saving up to 85% cost.</p></div>
+<div class="paragraph"><p><strong>Bio</strong></p></div>
+<div class="paragraph"><p>Youngsol Koh received B.S degree in electrical engineering from Purdue University, West Lafayette, in 2012. He is currently a Ph.D student in computer engineering in Purdue University. His research interest is Big Data and Cloud Computing to enable large-scale archived image and video processing in cost effective ways.</p></div>
+</div>
+<div class="sect2">
+<h3 id="xiao.wang">High Performance Model Based Image Reconstruction</h3>
+<div class="paragraph"><p><em>Xiao Wang</em></p></div>
+<div class="paragraph"><p><strong>Abstract</strong></p></div>
+<div class="paragraph"><p>Computed Tomography (CT) Image Reconstruction is an important technique used in a wide range of applications, ranging from explosive detection, medical imaging to scientific imaging.
+Among available reconstruction methods, Model Based Iterative Reconstruction (MBIR) produces higher quality images and allows for the use of more general CT scanner geometries than is possible with more commonly used methods.
+However, the high computational cost of MBIR often makes it impractical in applications for which it would otherwise be ideal. This talk describes a new MBIR implementation that significantly reduces the computational cost of MBIR while retaining its benefits.
+It describes a novel organization of the scanner data into super-voxels (SV) that, combined with a super-voxel buffer (SVB), dramatically increase locality and prefetching, enable parallelism across SVs and lead to an average speedup of 187X on 20 cores.</p></div>
+<div class="paragraph"><p><strong>Bio</strong></p></div>
+<div class="paragraph"><p>Xiao Wang is a PhD student at Department of Electrical and Computer Engineering, Purdue University, co-advised by Professor Charles Bouman and Professor Samuel Midkiff.
+He obtained dual bachelors degrees in Mathematics and Computer Science with honors from Saint John’s University, MN.  He also has a master degree in Biblical Counseling from Faith Bible Seminary, IN.
+His current research interests lies in the interdisciplinary research between High Performance Computing and Image Signal Processing. He recently received a bronze medal for ACM student research competition at Supercomputing Conference.</p></div>
+</div>
+<div class="sect2">
+<h3 id="chang">Robust network design with flexible routing</h3>
+<div class="paragraph"><p><em>Yiyang Chang</em></p></div>
+<div class="paragraph"><p><strong>Abstract</strong></p></div>
+<div class="paragraph"><p>A key challenge confronting network designers is verifying that their networks
+can properly cope with a wide range of traffic conditions and failure
+scenarios, and designing networks to meet this objective. Since many design
+choices (e.g., topology design, middlebox placement) are made over longer
+time-scales and cannot be easily adapted, it is important to make these choices
+in a manner robust to traffic demands and failure scenarios. In this talk, I
+will introduce a framework leveraging optimization theories to provide
+guaranteed bounds on link utilization across traffic patterns and failure
+scenarios of interest, as well as help design networks with guaranteed bounds.
+We apply our framework to multiple case studies including design of MPLS
+tunnels, and routing in the presence of middleboxes. Evaluations over real
+network topologies and traffic data show the promise of the approach.</p></div>
+<div class="paragraph"><p><strong>Bio</strong></p></div>
+<div class="paragraph"><p>Yiyang Chang is a Ph.D. student in the School of Electrical and Computer
+Engineering at Purdue University, advised by Professor Sanjay Rao. He obtained
+B.S. degree from School of EECS, Peking University. His research interest lies
+in the area of Computer Networks. He currently focuses on network synthesis and
+verification with optimization approaches.</p></div>
+</div>
+<div class="sect2">
+<h3 id="tsai">Rockies: A Network System for Future Data Center Racks</h3>
+<div class="paragraph"><p><em>Shin-Yeh Tsai</em></p></div>
+<div class="paragraph"><p><strong>Abstract</strong></p></div>
+<div class="paragraph"><p>We propose Rockies, an RDMA-based network system for future data center
+racks that disaggregate resource components and incorporates fast, new types
+of devices. The key ideas of Rockies is to co-design the network layer with
+rack operating and software systems and to exploit the specific scale of
+a rack. Specifically, we propose an Infiniband-based rack-scale topology
+that uses both direct connection and connection through two layers of switches.
+We further propose an OS-aware adaptive routing and congestion control system
+based on information passed from the OS. Our initial simulation results
+demonstrate the performance and monetary cost benefit of Rockies over existing solutions.</p></div>
+<div class="paragraph"><p><strong>Bio</strong></p></div>
+<div class="paragraph"><p>Shin-Yeh Tsai is a PhD student in Computer Science at Purdue University,
+advised by Professor Yiying Zhang from ECE department. He obtained M.S.
+degree from National Cheng Kung University from Taiwan. His research interest
+lies in the area of computer networks and operating systems. He
+currently focuses on data center rack-scale network design.</p></div>
+</div>
+<div class="sect2">
+<h3 id="nitin">MaDSOS: MapReduce with Distributed Stratified Online Sampling</h3>
+<div class="paragraph"><p><em>Nitin</em></p></div>
+<div class="paragraph"><p><strong>Abstract</strong></p></div>
+<div class="paragraph"><p>In the era of big data, many applications perform approximate computations to achieve performance improvements by producing less-precise, yet reasonable, results. Hadoop MapReduce is a widely-used big data framework that processes large amounts of data. A recent work, ApproxHadoop, extends Hadoop with a runtime abstraction to produce approximate results with statistical error bounds. ApproxHadoop uses a carefully-designed multistage sampling strategy to guide its approximation without exceeding target error bounds. However, ApproxHadoop suffers from a major limitation: It performs global uniform sampling across the entire key space of input data (modulo the effects of multistage sampling). Such uniform sampling may completely miss rare keys causing ApproxHadoop to skip entirely the associated computation. I present MaDSOS: MapReduce with Distributed Stratified Online Sampling to provide approximation without missing any key. MaDSOS makes two key contributions to achieve this target: (1) A novel telescoping-based online sampling strategy that performs per-key sampling without missing rare keys; (2) A feedback system that allows efficient collaboration among distributed map tasks to minimize oversampling. Across a range of MapReduce benchmarks, I demonstrate that MaDSOS can deliver performance improvements while guaranteeing never to miss rare keys. MaDSOS varies the sampling rate based on key popularity to achieve better per-key errors than a global sampling approach that samples at the same overall rate.</p></div>
+<div class="paragraph"><p><strong>Bio</strong></p></div>
+<div class="paragraph"><p>Nitin is a PhD Candidate in Computer Engineering at Purdue University. He works with Prof. T.N. Vijaykumar. His research has spanned the two extremes of the present computing era - growing data and shrinking transistors. He has produced work on Software Approximation in MapReduce and Hardware Reliability in microprocessors. Prior to Purdue, he obtained his undergraduate degree in Electrical Engineering from IIT Kanpur, India and subsequently designed GPUs at NVIDIA, Bangalore for three years.</p></div>
+</div>
+<div class="sect2">
+<h3 id="yeh">Pagoda: A Runtime System to Maximize GPU Utilization in Data Parallel Tasks with Limited Parallelism</h3>
+<div class="paragraph"><p><em>Tsungtai Yeh</em></p></div>
+<div class="paragraph"><p><strong>Abstract</strong></p></div>
+<div class="paragraph"><p>Massively multi-threaded GPUs achieve high throughput and energy efficiency
+by running thousands of threads in parallel. To fully utilize the GPU&#8217;s
+hardware, contemporary GPU workloads spawn work to the GPU in bulk by
+launching large kernels or tasks, with enough threads to fill the machine.
+Recently introduced programming constructs like CUDA Streams and CUDA HyperQ
+enable GPUs to simultaneously execute more than one task at once. However,
+these interfaces place restrictions on the number of tasks that can be run
+concurrently (32 in recent hardware) which can hinder utilization in applications with
+limited parallelism. Latency-sensitive applications in network, signal, and image processing
+that generate a large number of tasks with relatively small inputs are examples
+of such limited parallelism.</p></div>
+<div class="paragraph"><p>To overcome these limitations, this paper introduces Pagoda, which
+uses an OS-like software scheduler called MasterKernel, to control how tasks
+are assigned to hardware resources at the granularity of a warp. This level
+of control enables the GPU to run as many tasks as there are warps on the
+machine. Assigning resources at a warp granularity drastically improves
+utilization when running irregular workloads and improves average task latency
+versus state-of-the-art batching and persistent threading alternatives.
+Experimental results on real hardware demonstrate that Pagoda achieves
+from 2-3X speedups over CUDA-HyperQ, 1.5-2.8X speedups over the best
+runtime batching and persistent threading techniques and 4-5X speedups
+over OpenMP implementations run on the CPU.</p></div>
+<div class="paragraph"><p><strong>Bio</strong></p></div>
+<div class="paragraph"><p>Tsung Tai Yeh is a Ph.D student in the School of Electrical and Computer
+Engineering at Purdue University. He obtained M.S. degree from National
+Tsing Hua University in Taiwan. He received the Lynn Fellowship at Purdue
+University in 2012. His research concentrates on the software and
+hardware optimization in heterogeneous computer architectures. He
+is currently working on GPU runtime systems for concurrent tasks.</p></div>
+</div>
+<div class="sect2">
+<h3 id="miao">Tell your graphics stack that the display is circular</h3>
+<div class="paragraph"><p><em>Hongyu Miao</em></p></div>
+<div class="paragraph"><p><strong>Abstract</strong></p></div>
+<div class="paragraph"><p>Computer displays have been mostly rectangular since they were analog. Recently, smart watches running Android Wear start to embrace circular displays. However, the graphics stack–from user interface (UI) libraries to GPU to display controller–is kept oblivious to the display shape for engineering ease and compatibility; it still produces contents for a virtual square region that circumscribes the actual circular display. To understand the implications on resource usage, we have tested eleven Android Wear apps on a cutting edge wearable device and examined the key layers of Android Wear’s graphics stack. We have found that while no significant amount of CPU/GPU operations are wasted, the obliviousness incurs excessive memory and display interface traffic, and thus leads to efficiency loss.</p></div>
+<div class="paragraph"><p>To minimize such waste, we advocate for a new software layer at the OpenGL interface while keeping the other layers oblivious. Following the idea, we propose a pilot solution that intercepts the OpenGL commands and rewrites the GPU shader programs on-the-fly. Through running a handcrafted app, we show a reduction in the GPU memory read by up to 22.4%. Overall, our experience suggests that it is both desirable and tractable to adapt the existing graphics stack for circular displays.</p></div>
+<div class="paragraph"><p><strong>Bio</strong></p></div>
+<div class="paragraph"><p>Hongyu Miao is a first year PhD student at Department of Electrical and Computer Engineering, Purdue University, advised by Professor Felix Xiaozhu Lin. He is interested in building operating systems for modern computers&#8201;&#8212;&#8201;from small wearable devices to cloud servers.</p></div>
+</div>
+<div class="sect2">
+<h3 id="gandhi">Yoda: Highly available layer-7 load balancer</h3>
+<div class="paragraph"><p><em>Rohan Gandhi</em></p></div>
+<div class="paragraph"><p><strong>Abstract</strong></p></div>
+<div class="paragraph"><p>Layer-7 load balancing is a foundational building block of online
+services. The lack of offerings from major public cloud providers have
+left online services to build their own load balancers (LB), or use
+third-party LB design such as HAProxy. The key problem with such
+proxy-based design is each proxy instance is a single point of
+failure, as upon its failure, the TCP flow state for the
+connections with the client and server is lost which breaks the user
+flows. This significantly affects user experience and online services
+revenue.</p></div>
+<div class="paragraph"><p>In this paper, we present Yoda, a highly available, scalable and
+low-latency L7-LB-as-a-service in a public cloud.  Yoda is based on
+two design principles we propose for achieving high availability of a L7 LB:
+decoupling the flow state from the LB instances and storing it in a
+persistent storage, and leveraging the L4 LB service to enable each L7
+LB instance to use the virtual IP in interacting with both the client
+and the server (called front-and-back indirection).</p></div>
+<div class="paragraph"><p>Our evaluation of Yoda prototype on a 60-VM testbed in
+Windows Azure shows the overhead of decoupling TCP state into a
+persistent storage is very low ($&lt;$1 msec), and Yoda maintains all
+flows during LB instance failures, addition, removal, as well as user
+policy updates. Our simulation driven by a one-day trace from production
+online services show that compared to using Yoad by each tenant,
+Yoda-as-a-service reduces L7 LB instance
+cost for the tenants by 3.7x while providing 4x more redundancy.</p></div>
+<div class="paragraph"><p><strong>Bio</strong></p></div>
+<div class="paragraph"><p>Rohan Gandhi is a n-th year PhD student with Prof. Y. Charlie Hu. His interests are in
+computer systems and networks. If you ever find a need for middleboxes in cloud, feel
+free to contact him!</p></div>
+</div>
+<div class="sect2">
+<h3 id="Aurangzeb">History-based Piecewise Approximation Scheme for Procedures</h3>
+<div class="paragraph"><p><em>Aurangzeb</em></p></div>
+<div class="paragraph"><p><strong>Abstract</strong></p></div>
+<div class="paragraph"><p>Approximate computing has emerged as an active area of research in recent years. A number of techniques have been proposed to increase performance of applications that can tolerate a certain degree of inaccuracy. Approximating functions can offer significant performance improvement but this opportunity has not yet been fully explored by the approximate computing community. We introduce techniques to perform approximation at the level of functions. We present our schemes with two flavors and discuss four realizations. We show that mathematical and scientific functions can be approximated and used in applications amenable to approximate computing by presenting results on 90 such functions from the GNU Scientific Library (GSL). Results show that our approximation scheme was able to speed up 92% of all functions. For 71% of the functions, the normalized RMS error in the approximated result was very small (0.06 on average) with 9.3x speedup, on average. Whereas for another 15% of functions it was 0.49 with an average speedup of 9.5x. We also demonstrate the feasibility and practicality of the approach by presenting results on three real applications. The average speedup for these applications is 1.74x with 0.5% error, on average.</p></div>
+<div class="paragraph"><p><strong>Bio</strong></p></div>
+<div class="paragraph"><p>Aurangzeb is Ph.D. student. He is a member of Paramount Research Group led by Prof. Rudolf Eigenmann. His interests are in approximate computing.</p></div>
+</div>
+<div class="sect2">
+<h3 id="gokhale">A Hardware Accelerator for Convolutional Neural Networks</h3>
+<div class="paragraph"><p><em>Vinayak Gokhale</em></p></div>
+<div class="paragraph"><p><strong>Abstract</strong></p></div>
+<div class="paragraph"><p>Deep learning is used on a daily basis by a growing number of people on Internet services such as social networks, picture aggregators and image search engines. If you’ve used YouTube, you’ve used deep learning. If you’ve used your smartphone’s voice recognition feature, you’ve used deep learning. If you have a Facebook account, you’ve used deep learning. If you were wowed by AlphaGo’s recent string of victories against some of the world’s best Go players, it was made possible by deep learning. If you’ve followed the progress made on autonomous vehicles with excitement (or apprehension), they use deep learning. As the number of products incorporating deep learning algorithms grows by the day, there is growing interest in developing custom hardware to accelerate these algorithms and decrease the power consumed in their processing.</p></div>
+<div class="paragraph"><p>Several factors make the design of deep learning specific custom architectures attractive. One is the large number of computations performed on the input data. Others include memory access patterns, the size of intermediate data produced and the inability of general purpose hardware to fully exploit the inherent parallelism in many of these algorithms.</p></div>
+<div class="paragraph"><p>In my talk, I will focus on an architecture targeting one specific algorithm that falls under the deep learning umbrella – convolutional neural networks (CNNs). I will discuss in detail the challenges to designing a hardware accelerator for CNNs and the approach we took to tackle those challenges.</p></div>
+<div class="paragraph"><p><strong>Bio</strong></p></div>
+<div class="paragraph"><p>Vinayak Gokhale is a Ph.D. student at Purdue University’s Department of Electrical and Computer Engineering. He spends his days (and some nights) at e-Lab, working under the direction of Dr. Eugenio Culurciello (Weldon School of Biomedical Engineering).</p></div>
+</div>
+<div class="sect2">
+<h3 id="mahmood">Cost-effective Geo-replicated Cloud Storage with Dynamic Enforcement of Causal Consistency</h3>
+<div class="paragraph"><p><em>Tariq Mahmood</em></p></div>
+<div class="paragraph"><p><strong>Abstract</strong></p></div>
+<div class="paragraph"><p>Causal consistency has emerged as an attractive middle-ground to architecting cloud storage systems, as it allows for high availability and low latency, while supporting stronger-than-eventual-consistency semantics. However, causally-consistent cloud storage systems have seen limited deployment in practice. A key factor is these systems employ full replication of all the data in all the data centers (DCs), incurring high cost. A simple extension of current causal systems to support partial replication by clustering DCs into rings incurs availability and latency problems. We propose Karma, the first system to enable causal consistency for partitioned data stores while achieving the cost advantages of partial replication without the availability and latency problems of the simple extension. Our evaluation with 64 servers emulating 8 geo-distributed DCs shows that Karma (i) incurs much lower cost than a fully-replicated causal store; and (ii) offers higher availability and better performance than the above partial replication extension at similar costs.</p></div>
+<div class="paragraph"><p><strong>Bio</strong></p></div>
+<div class="paragraph"><p>Tariq Mahmood is a Ph.D. student in the Department of Electrical and Computer Engineering at Purdue University. He works with the Systems and Architecture Interest Group (SAIG) under the supervision of Prof. Mithuna Thottethodi. His current research focuses on developing better consistency protocols for geo-replicated cloud storage systems.</p></div>
+</div>
+<div class="sect2">
+<h3 id="mitra">Partial-Parallel-Repair (PPR): A Distributed Technique for Repairing Erasure Coded Storage</h3>
+<div class="paragraph"><p><em>Subrata Mitra</em></p></div>
+<div class="paragraph"><p><strong>Abstract</strong></p></div>
+<div class="paragraph"><p>With the explosion of data in applications all around us, erasure coded storage has emerged as an attractive alternative to replication because even with significantly lower storage overhead, they provide better reliability against data loss. Reed-Solomon code is the most widely used erasure code because it provides maximum reliability for a given storage overhead and is flexible in the choice of coding parameters that determine the achievable reliability. However, reconstruction time for unavailable data becomes prohibitively long mainly because of network bottlenecks. Some proposed solutions either use additional storage or limit the coding parameters that can be used. In this paper, we propose a novel distributed reconstruction technique, called Partial Parallel Repair (PPR), which divides the reconstruction operation to small partial operations and schedules them on multiple nodes already involved in the data reconstruction. Then a distributed protocol progressively combines these partial results
+to reconstruct the unavailable data blocks and this technique reduces the network pressure. Theoretically, our technique can complete the network transfer in ceil(log2(k + 1)) time, compared to k time needed for a (k,m) Reed-Solomon code. Our experiments show that PPR reduces repair time and degraded read time significantly. Moreover, our technique is compatible with existing erasure codes and does not require any additional storage overhead.We demonstrate this by overlaying PPR on top of two prior schemes, Local Reconstruction Code and Rotated Reed-Solomon code, to gain additional savings in reconstruction time.</p></div>
+<div class="paragraph"><p><strong>Bio</strong></p></div>
+<div class="paragraph"><p>Subrata Mitra is a PhD candidate in ECE and works with Prof. Saurabh Bagchi. This work has been selected to appear in EuroSys-2016 which will be held in London (April 18-21). This is a collaboration between Purdue and At&amp;t Research Labs.</p></div>
+</div>
+<div class="sect2">
+<h3 id="kaseb">A Cloud-Based System Analyzing Big Visual Data from Network Cameras</h3>
+<div class="paragraph"><p><em>Ahmed S. Kaseb</em></p></div>
+<div class="paragraph"><p><strong>Abstract</strong></p></div>
+<div class="paragraph"><p>Thousands of network cameras stream public visual data for different environments, such as streets, shopping malls, and natural scenes. The big visual data from these cameras can be useful for many applications, but analyzing this data presents many challenges, such as (i) retrieving data from heterogeneous cameras (e.g. different brands and data formats), (ii) providing a software environment for users to simultaneously analyze the large amounts of data from the cameras, (iii) allocating and managing significant amount of resources. This thesis presents a system designed to address these challenges. The system enables users to execute analysis programs on the data from more than 80,000 cameras. The system handles the heterogeneity of the cameras and provides an Application Programming Interface (API) that requires slight changes to the existing analysis programs. The system includes a resource manager that allocates cloud resources in order to meet the analysis requirements. Cloud vendors offer different cloud instance types with different capabilities and hourly costs. The resource manager reduces the overall cost of the allocated instances while meeting the performance requirements. The manager monitors the allocated instances; it allocates more instances if needed and deallocates existing instances to reduce the cost if possible. The resource manager makes decisions based on many factors, such as analysis programs, frame rates, cameras, and instance types.</p></div>
+<div class="paragraph"><p><strong>Bio</strong></p></div>
+<div class="paragraph"><p>Ahmed S. Kaseb is a Ph.D. student and a Graduate Research Assistant in the School of Electrical and Computer Engineering at Purdue University. He obtained the M.S. and B.E. degrees in computer engineering from Cairo University in 2013 and 2010 respectively. He is conducting research in Big Data, Cloud Computing, and Computer Vision in order to enable cost-effective large-scale real-time analysis of image and video streams from worldwide distributed network cameras. He received the best paper award in the International Conference on Cloud Computing and Big Data 2015. His team received second prize in the Schurz Innovation Challenge in April 2014. He received the  RCA Zworykin Scholarship from Purdue in 2013.</p></div>
+</div>
+<div class="sect2">
+<h3 id="hegde">SPIRIT: A Runtime System for Distributed Tree Applications</h3>
+<div class="paragraph"><p><em>Nikhil Hegde</em></p></div>
+<div class="paragraph"><p><strong>Abstract</strong></p></div>
+<div class="paragraph"><p>An important subset of irregular applications are based on tree traversals. These applications appear in diverse domains such as scientific computing, data mining, and computer graphics.
+Computing nearest neighbor, n-body simulations such as the force computation stage of Barnes-Hut algorithm, and ray tracing with photon mapping, all involve repeated, depth-first traversals of the tree.
+Often, these applications operate over massive data sets, which cannot be fit on a single node. Hence, distributed implementations are necessary.
+We introduce SPIRIT, a runtime system to ease the writing of distributed tree applications. SPIRIT automates the challenging tasks of tree distribution, optimizing
+communication and parallelizing independent computations. We exploit the common algorithmic pattern in tree traversals to effectively schedule parallel computations and improve locality.
+As a result, we identify systematic ways of exploiting pipeline parallelism in these applications and show how this parallelism can be complemented by selective application of data parallelism
+to provide greater speed-ups without requiring excessive data replication.
+Evaluation of SPIRIT on various tree traversal algorithms shows a scalable system, achieving a mean speedup of 9.8x accross the benchmark applications on a 12-node, 48 process system compared to a 1-node, baseline configuration. We also find that SPIRIT implementations perform substantially less communication and achieve significant performance improvements over implementations in other distributed graph systems.</p></div>
+<div class="paragraph"><p><strong>Bio</strong></p></div>
+<div class="paragraph"><p>Nikhil Hegde is a PhD student in the department of Electrical and Computer Engineering, Purdue University, advised by Prof. Milind Kulkarni.
+His current research focuses on optimizing distributed execution of irregular applications.</p></div>
+<div class="paragraph"><p><span class="small">/home/xzl/Dropbox/private/website/gradtalks</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footnotes"><hr></div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2016-08-25 20:29:47 EDT
+</div>
+</div>
+</body>
+</html>
