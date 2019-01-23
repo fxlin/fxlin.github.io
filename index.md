@@ -39,7 +39,7 @@ At Purdue, I work with a group of graduate students who share the above opinion 
 
 [Why Purdue Computer Eng?](https://engineering.purdue.edu/ComputerEngineering/) 
 | Center for Resilient Infrastructures, Systems, and Processes ([CRISP](https://engineering.purdue.edu/CRISP))
-| [CompE graduate seminar](https://engineering.purdue.edu/~xzl/gradtalks/index.html)
+| [CompE graduate seminar](/gradtalks/index.html)
 | [To PhD applicants](/hiring.html)
 | [To signature requesters](/sign.html)
 | [Name in Chinese](/img/name.jpg)
