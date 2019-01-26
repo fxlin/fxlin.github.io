@@ -1,6 +1,6 @@
 ## Felix Xiaozhu Lin
 
-Asst. Prof. | PhD in CS | Purdue ECE | [Contact](/contact.html)
+Asst. Prof. | PhD in CS | Purdue ECE | [CV](/cv.pdf) | [Contact](/contact.html)
 
 PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automation (Tsinghua 2006). Grew up in [Chongqing](http://upload.wikimedia.org/wikipedia/commons/6/60/Chongqing_Night_Yuzhong.jpg) "the city of hills". 
 
