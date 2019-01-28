@@ -1,6 +1,6 @@
 ## Felix Xiaozhu Lin
 
-Asst. Prof. | PhD in CS | Purdue ECE | [Contact](/contact.html)
+Asst. Prof. | PhD in CS | Purdue ECE | [CV](/cv.pdf) | [Contact](/contact.html)
 
 PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automation (Tsinghua 2006). Grew up in [Chongqing](http://upload.wikimedia.org/wikipedia/commons/6/60/Chongqing_Night_Yuzhong.jpg) "the city of hills". 
 
@@ -39,7 +39,7 @@ At Purdue, I work with a group of graduate students who share the above opinion 
 
 [Why Purdue Computer Eng?](https://engineering.purdue.edu/ComputerEngineering/) 
 | Center for Resilient Infrastructures, Systems, and Processes ([CRISP](https://engineering.purdue.edu/CRISP))
-| [CompE graduate seminar](https://engineering.purdue.edu/~xzl/gradtalks/index.html)
+| [CompE graduate seminar](/gradtalks/index.html)
 | [To PhD applicants](/hiring.html)
 | [To signature requesters](/sign.html)
 | [Name in Chinese](/img/name.jpg)
