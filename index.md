@@ -26,7 +26,7 @@ Our current work bases on two premises:
 * A data store serving retrospective queries over large videos ([Eurosys'19](https://arxiv.org/abs/1810.01794)). 
 
 ### 2. Commodity kernels (e.g. Linux) are essentially firmware 
-* Transkernel: executing unmodified Linux drivers on microcontroller cores ([arxiv](https://arxiv.org/abs/1811.05000) and [HotMobile'17](https://thexsel.github.io/papers/hotmobile17.pdf)).
+* Transkernel: executing unmodified Linux drivers on microcontroller cores ([preprint](https://arxiv.org/abs/1811.05000) and [HotMobile'17](https://thexsel.github.io/papers/hotmobile17.pdf)).
 * Power awareness redefined: power sandbox ([Eurosys'18](https://thexsel.github.io/p/psbox/index.html)).
 
 I worked on smartphone OS for my PhD, e.g. the [K2 project](http://www.k2os.org) which won an award in ASPLOS'14. Today, I continue to work on various mobile/wearable topics. See our [group page](http://xsel.rocks) for all projects.
