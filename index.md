@@ -17,7 +17,7 @@ Today they include IoT sensors, smartphones, and edge servers.
 
 **My _kenshō_ on systems research** (2018-12) [PDF](/two-inquiries-v3.pdf)
 
-At Purdue, I work with a group of graduate students who share interest in systems software. 
+At Purdue, I work with a group of students who share interest in systems software. 
 
 Our current work bases on two premises: 
 
