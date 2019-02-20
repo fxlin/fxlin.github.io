@@ -12,8 +12,8 @@ PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automat
 
 ## Research ([Publication](https://thexsel.github.io/papers.html))
 
-I care about systems software -- mostly for computers which consume (10 Milliwatt, 500 Watt) of power. 
-Today they include IoT sensors, smartphones, and edge servers. 
+I care about systems software -- mostly for computers consuming 10 Milliwatt -- 500 Watt of power. 
+Today they include sensors, smartphones/devices, and edge servers. 
 
 **My _kenshō_ on systems research** (2018-12) [PDF](/two-inquiries-v3.pdf)
 
@@ -23,9 +23,9 @@ Our current work bases on two premises:
 
 ### 1. OSes are defined by scenarios 
 * StreamBox: A stream processing engines exploiting manycores ([ATC'17](https://thexsel.github.io/p/streambox/index.html)) and hybrid high-bandwidth memory ([ASPLOS'19](https://arxiv.org/abs/1901.01328)). 
-* A data store serving retrospective queries over large videos ([Eurosys'19](https://arxiv.org/abs/1810.01794)). 
+* A data store for queries over large archival videos ([Eurosys'19](https://arxiv.org/abs/1810.01794)). 
 
-### 2. Commodity kernels (e.g. Linux) are essentially firmware 
+### 2. Commodity kernels (e.g. Linux) are firmware 
 * Transkernel: executing unmodified Linux drivers on microcontroller cores ([preprint](https://arxiv.org/abs/1811.05000) and [HotMobile'17](https://thexsel.github.io/papers/hotmobile17.pdf)).
 * Power awareness redefined: power sandbox ([Eurosys'18](https://thexsel.github.io/p/psbox/index.html)).
 
