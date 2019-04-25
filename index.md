@@ -21,14 +21,14 @@ At Purdue, I work with a group of students who share interest in systems softwar
 
 Our current work bases on two premises: 
 
-### 1. OSes are defined by scenarios 
-* StreamBox: fast stream analytics with manycores ([ATC'17](https://thexsel.github.io/p/streambox/index.html)) and 3D-stacked memory ([ASPLOS'19](https://arxiv.org/abs/1901.01328)). 
-* VStore: managing large archival videos for analytics ([Eurosys'19](https://arxiv.org/abs/1810.01794)). 
-
-### 2. Commodity kernels (e.g. Linux) are firmware 
-* Transkernel: unmodified Linux drivers on microcontroller-like cores ([preprint](https://arxiv.org/abs/1811.05000) and [HotMobile'17](https://thexsel.github.io/papers/hotmobile17.pdf)).
+### 1. Old kernels (e.g. Linux) are firmware 
+* Transkernel: unmodified Linux drivers on microcontroller-like cores ([ATC'19](https://arxiv.org/abs/1811.05000) and [HotMobile'17](https://thexsel.github.io/papers/hotmobile17.pdf)).
 * Overwatch: safeguarding unmodified file systems for IoT devices ([preprint](https://arxiv.org/abs/1902.06327))
 * Power sandbox: power awareness redefined ([Eurosys'18](https://thexsel.github.io/p/psbox/index.html)).
+
+### 2. New OSes are defined by scenarios 
+* StreamBox: stream analytics with manycores ([ATC'17](https://thexsel.github.io/p/streambox/index.html)), with 3D-stacked memory ([ASPLOS'19](https://arxiv.org/abs/1901.01328)), and with Arm TrustZone ([ATC'19](https://arxiv.org/abs/1808.05078)).
+* VStore: managing large archival videos for analytics ([Eurosys'19](https://arxiv.org/abs/1810.01794)). 
 
 I worked on smartphone OS for my PhD, e.g. the [K2 project](http://www.k2os.org) which won an award in ASPLOS'14. Today, I continue to work on various mobile/wearable topics. See our [group page](http://xsel.rocks) for all projects.
 
