@@ -15,7 +15,10 @@ PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automat
 I care about systems software -- mostly for computers consuming 10 Milliwatt -- 500 Watt of power. 
 Today they include sensors, smartphones/devices, and edge servers. 
 
-**My _kenshō_ on systems research** (2018-12) [PDF](/two-inquiries-v3.pdf)
+**Overview** [slides](https://www.slideshare.net/secret/JS0VXXRm579Wnu)
+
+<!-- **My _kenshō_ on systems research** (2018-12) [PDF]()
+-->
 
 At Purdue, I work with a group of students who share interest in systems software. See [XSEL](http://xsel.rocks). 
 
