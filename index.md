@@ -12,8 +12,8 @@ PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automat
 
 ## Research ([Publication](https://thexsel.github.io/papers.html))
 
-I care about systems software -- mostly for computers consuming 10 Milliwatt -- 500 Watt of power. 
-Today they include sensors, smartphones/devices, and edge servers. 
+I care about systems software -- mostly for computers consuming power roughly in the (10 Milliwatt, 500 Watt) range. 
+Today they include sensors, smart phones/devices, and edge servers. 
 
 **Overview** [slides](https://www.slideshare.net/secret/JS0VXXRm579Wnu)
 
@@ -33,7 +33,9 @@ Our current work bases on two premises:
 * StreamBox: stream analytics with manycores ([ATC'17](https://thexsel.github.io/p/streambox/index.html)), with 3D-stacked memory ([ASPLOS'19](https://arxiv.org/abs/1901.01328)), and with Arm TrustZone ([ATC'19](https://arxiv.org/abs/1808.05078)).
 * VStore: managing large archival videos for analytics ([Eurosys'19](https://arxiv.org/abs/1810.01794)). 
 
-I worked on smartphone OS for my PhD, e.g. the [K2 project](http://www.k2os.org) which won an award in ASPLOS'14. Today, I continue to work on various mobile/wearable topics. See our [group page](http://xsel.rocks) for all projects.
+My PhD work was on OS kernels for smartphones, e.g. the [K2 project](http://www.k2os.org) which won an award in ASPLOS'14. I continue to care about mobile/wearables, e.g. deep learning on them ([WWW'19](https://arxiv.org/abs/1812.05448) & [MobiCom'18](https://arxiv.org/abs/1712.01670)). 
+
+See our [group page](http://xsel.rocks) for all projects.
 
 <!---
 At Purdue, I work with a group of graduate students who share the above opinion (sometimes). See our [group page](http://xsel.rocks) for all the projects.
