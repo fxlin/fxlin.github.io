@@ -1,4 +1,4 @@
-## Felix Xiaozhu Lin
+## Felix Xiaozhu Lin   林 小 竹
 
 Asst. Prof. | PhD in CS | Purdue ECE | [CV](/cv.pdf) | [Contact](/contact.html)
 
