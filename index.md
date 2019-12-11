@@ -47,6 +47,7 @@ At Purdue, I work with a group of graduate students who share the above opinion 
 | Center for Resilient Infrastructures, Systems, and Processes ([CRISP](https://engineering.purdue.edu/CRISP))
 | [CompE graduate seminar](/gradtalks/index.html)
 | [To PhD applicants](/hiring.html)
+| [To students who requested reference letters](/letter-policy.htm)
 | [To signature requesters](/sign.html)
 | [Name in Chinese](/img/name.jpg)
 
