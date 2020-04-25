@@ -48,6 +48,7 @@ At Purdue, I work with a group of graduate students who share the above opinion 
 | [CompE graduate seminar](/gradtalks/index.html)
 | [To PhD applicants](/hiring.html)
 | [To students who requested reference letters](/letter-policy.pdf)
+| [How do I determine final grades for undergrad classes?](/final-grades.pdf)
 | [To signature requesters](/sign.html)
 | [Name in Chinese](/img/name.jpg)
 
