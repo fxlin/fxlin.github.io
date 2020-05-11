@@ -49,6 +49,7 @@ At Purdue, I work with a group of graduate students who share the above opinion 
 | [To PhD applicants](/hiring.html)
 | [To students who requested reference letters](/letter-policy.pdf)
 | [How do I determine final grades for undergrad classes?](/final-grades.pdf)
+| [How do we work with undergrads in research?](/undergrad-research.pdf)
 | [To signature requesters](/sign.html)
 | [Name in Chinese](/img/name.jpg)
 
