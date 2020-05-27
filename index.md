@@ -1,6 +1,8 @@
 ## Felix Xiaozhu Lin   林 小竹
 
-Asst. Prof. | PhD in CS | Purdue ECE | [CV](/cv.pdf) | [Contact](/contact.html)
+Asst. Prof. | PhD in CS | [CV](/cv.pdf) | [Contact](/contact.html)
+
+[May 2020] I will UVA CS in Fall 2020. [details](/leaving.pdf) 
 
 PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automation (Tsinghua 2006). Grew up in [Chongqing](http://upload.wikimedia.org/wikipedia/commons/6/60/Chongqing_Night_Yuzhong.jpg) "the city of hills". 
 
@@ -43,13 +45,13 @@ At Purdue, I work with a group of graduate students who share the above opinion 
 
 ## Useful 
 
-[Why Purdue Computer Eng?](https://engineering.purdue.edu/ComputerEngineering/) 
+[To students who requested reference letters](/letter-policy.pdf)
+| [How do I determine final grades for undergrad classes?](/final-grades.pdf)
+| [How do we work with undergrads in research?](/undergrad-research.pdf)
+| [Why Purdue Computer Eng?](https://engineering.purdue.edu/ComputerEngineering/) 
 | Center for Resilient Infrastructures, Systems, and Processes ([CRISP](https://engineering.purdue.edu/CRISP))
 | [CompE graduate seminar](/gradtalks/index.html)
 | [To PhD applicants](/hiring.html)
-| [To students who requested reference letters](/letter-policy.pdf)
-| [How do I determine final grades for undergrad classes?](/final-grades.pdf)
-| [How do we work with undergrads in research?](/undergrad-research.pdf)
 | [To signature requesters](/sign.html)
 | [Name in Chinese](/img/name.jpg)
 
