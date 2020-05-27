@@ -2,7 +2,7 @@
 
 Asst. Prof. | PhD in CS | [CV](/cv.pdf) | [Contact](/contact.html)
 
-[May 2020] I will UVA CS in Fall 2020. [details](/leaving.pdf) 
+[May 2020] I will move to UVA CS in Fall 2020. [details](/leaving.pdf) 
 
 PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automation (Tsinghua 2006). Grew up in [Chongqing](http://upload.wikimedia.org/wikipedia/commons/6/60/Chongqing_Night_Yuzhong.jpg) "the city of hills". 
 
