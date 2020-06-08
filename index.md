@@ -6,8 +6,6 @@ Asst. Prof. | PhD in CS | [CV](/cv.pdf) | [Contact](/contact.html)
 
 PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automation (Tsinghua 2006). Grew up in [Chongqing](http://upload.wikimedia.org/wikipedia/commons/6/60/Chongqing_Night_Yuzhong.jpg) "the city of hills". 
 
-
-
 <!--- 
 **I care system software for addressing challenges raised by new workloads and new hardware. My recent work includes OS support for stream processing, for heterogeneous memory, and for wearable devices.**
 -->
@@ -19,12 +17,17 @@ Today they include sensors, smart phones/devices, and edge servers.
 
 Jun/20: **"OS frontiers in the AI era"** For UVA graduate students. [slides](https://www.slideshare.net/secret/4GjP2jyTXuau6x) [video](https://youtu.be/Ntm388nz2CY)
 
+<a href="https://www.slideshare.net/secret/4GjP2jyTXuau6x/">
+<img src="/img/3flavors.png" width="200">
+</a>  
+
+
 Mar/19: **Overview** [slides](https://www.slideshare.net/secret/JS0VXXRm579Wnu)
 
 <!-- **My _kenshō_ on systems research** (2018-12) [PDF]()
 -->
 
-At Purdue, I work with a group of students who share interest in systems software. See [XSEL](http://xsel.rocks). 
+I work with a group of students who share interest in systems software. See [XSEL](http://xsel.rocks). 
 
 Our current work bases on two premises: 
 
@@ -34,8 +37,10 @@ Our current work bases on two premises:
 * Power sandbox: power awareness redefined ([Eurosys'18](https://thexsel.github.io/p/psbox/index.html)).
 
 ### 2. New OSes are defined by scenarios 
-* StreamBox: stream analytics with manycores ([ATC'17](https://thexsel.github.io/p/streambox/index.html)), with 3D-stacked memory ([ASPLOS'19](https://arxiv.org/abs/1901.01328)), and with Arm TrustZone ([ATC'19](https://arxiv.org/abs/1808.05078)).
+* Elf: autonomous AI cameras ([Mobisys'20](https://arxiv.org/abs/1909.00841), [1-min video](https://youtu.be/x2z_pm3FiD0))
 * VStore: managing large archival videos for analytics ([Eurosys'19](https://arxiv.org/abs/1810.01794)). 
+* StreamBox: stream analytics with manycores ([ATC'17](https://thexsel.github.io/p/streambox/index.html)), with 3D-stacked memory ([ASPLOS'19](https://arxiv.org/abs/1901.01328)), and with Arm TrustZone ([ATC'19](https://arxiv.org/abs/1808.05078)).
+
 
 My PhD work was on OS kernels for smartphones, e.g. the [K2 project](http://www.k2os.org) which won an award in ASPLOS'14. I continue to care about mobile/wearables, e.g. deep learning on them ([WWW'19](https://arxiv.org/abs/1812.05448) & [MobiCom'18](https://arxiv.org/abs/1712.01670)). 
 
@@ -47,7 +52,7 @@ At Purdue, I work with a group of graduate students who share the above opinion 
 
 ## Useful 
 
-[To students who requested reference letters](/letter-policy.pdf)
+[Need a reference letter from me?](/letter-policy.pdf)
 | [How do I determine final grades for undergrad classes?](/final-grades.pdf)
 | [How do we work with undergrads in research?](/undergrad-research.pdf)
 | [Why Purdue Computer Eng?](https://engineering.purdue.edu/ComputerEngineering/) 
