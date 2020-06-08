@@ -17,7 +17,9 @@ PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automat
 I care about systems software -- mostly for computers consuming power roughly in the (10 Milliwatt, 500 Watt) range. 
 Today they include sensors, smart phones/devices, and edge servers. 
 
-**Overview** [slides](https://www.slideshare.net/secret/JS0VXXRm579Wnu)
+Jun/20: **"OS frontiers in the AI era"** For UVA graduate students. [slides](https://www.slideshare.net/secret/4GjP2jyTXuau6x) [video](https://youtu.be/Ntm388nz2CY)
+
+Mar/19: **Overview** [slides](https://www.slideshare.net/secret/JS0VXXRm579Wnu)
 
 <!-- **My _kenshō_ on systems research** (2018-12) [PDF]()
 -->
