@@ -37,7 +37,7 @@ Our current work bases on two premises:
 * Power sandbox: power awareness redefined ([Eurosys'18](https://thexsel.github.io/p/psbox/index.html)).
 
 ### 2. New OSes are defined by scenarios 
-* Elf: autonomous AI cameras ([Mobisys'20](https://arxiv.org/abs/1909.00841), [1-min video](https://youtu.be/x2z_pm3FiD0))
+* Elf: autonomous AI cameras ([Mobisys'20](https://arxiv.org/abs/1909.00841), [3-min video](https://www.dropbox.com/s/rv71kw1frkp9yqu/elf-3min.mp4?dl=0))
 * VStore: managing large archival videos for analytics ([Eurosys'19](https://arxiv.org/abs/1810.01794)). 
 * StreamBox: stream analytics with manycores ([ATC'17](https://thexsel.github.io/p/streambox/index.html)), with 3D-stacked memory ([ASPLOS'19](https://arxiv.org/abs/1901.01328)), and with Arm TrustZone ([ATC'19](https://arxiv.org/abs/1808.05078)).
 
