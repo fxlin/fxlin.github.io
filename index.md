@@ -4,7 +4,7 @@ Asst. Prof. | PhD in CS | [CV](/cv.pdf) | [Contact](/contact.html)
 
 [May 2020] I will move to UVA CS in Fall 2020. [details](/leaving.pdf) 
 
-PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automation (Tsinghua 2006). Grew up in [Chongqing](http://upload.wikimedia.org/wikipedia/commons/6/60/Chongqing_Night_Yuzhong.jpg), a magical, 3D-stacked city. 
+PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automation (Tsinghua 2006). Grew up in Chongqing metropolitan area, known for its "3D-stacked" buildings. 
 
 <!--- 
 **I care system software for addressing challenges raised by new workloads and new hardware. My recent work includes OS support for stream processing, for heterogeneous memory, and for wearable devices.**
