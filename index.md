@@ -2,9 +2,9 @@
 
 Asst. Prof. | PhD in CS | [CV](/cv.pdf) | [Contact](/contact.html)
 
-[May 2020] I will move to UVA CS in Fall 2020. [details](/leaving.pdf) 
+I will move to UVA CS in Fall 2020. [details](/leaving.pdf) 
 
-PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automation (Tsinghua 2006). Grew up in Chongqing metropolitan area, known for its "3D-stacked" buildings. 
+PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automation (Tsinghua 2006). Grew up in Chongqing, known for its "3D-stacked" buildings. 
 
 <!--- 
 **I care system software for addressing challenges raised by new workloads and new hardware. My recent work includes OS support for stream processing, for heterogeneous memory, and for wearable devices.**
@@ -19,19 +19,19 @@ Today they include sensors, smart phones/devices, and edge servers.
 
 I care about systems software. 
 
-Jun/20: **"OS frontiers in the AI era"** For UVA graduate students. [slides](https://www.slideshare.net/secret/4GjP2jyTXuau6x) [video](https://youtu.be/Ntm388nz2CY)
+Jun 2020: **"OS frontiers in the AI era"** For UVA graduate students. [slides](https://www.slideshare.net/secret/4GjP2jyTXuau6x) [video](https://youtu.be/Ntm388nz2CY)
 
 <a href="https://www.slideshare.net/secret/4GjP2jyTXuau6x/">
 <img src="/img/3flavors.png" width="200">
 </a>  
 
 
-Mar/19: **Overview** [slides](https://www.slideshare.net/secret/JS0VXXRm579Wnu)
+Mar 2019: **Overview** [slides](https://www.slideshare.net/secret/JS0VXXRm579Wnu)
 
 <!-- **My _kenshō_ on systems research** (2018-12) [PDF]()
 -->
 
-I work with a group of students who share interest in systems software. See [XSEL](http://xsel.rocks). 
+I work with a group of students with ethusiasm in systems software. See [XSEL](http://xsel.rocks). 
 
 Our current work bases on two premises: 
 
@@ -41,7 +41,7 @@ Our current work bases on two premises:
 * Power sandbox: power awareness redefined ([Eurosys'18](https://thexsel.github.io/p/psbox/index.html)).
 
 ### 2. New OSes are defined by scenarios 
-* Elf: autonomous AI cameras ([Mobisys'20](https://arxiv.org/abs/1909.00841), [3-min video](https://www.dropbox.com/s/rv71kw1frkp9yqu/elf-3min.mp4?dl=0))
+* Elf: autonomous AI cameras ([Mobisys'20](https://arxiv.org/abs/1909.00841), [3-min video](https://www.dropbox.com/s/rv71kw1frkp9yqu/elf-3min.mp4?dl=0), [website](https://xumengwei.github.io/projects/elf.html), [slides](https://xumengwei.github.io/files/MobiSys-Elf-slides.pdf))
 * VStore: managing large archival videos for analytics ([Eurosys'19](https://arxiv.org/abs/1810.01794)). 
 * StreamBox: stream analytics with manycores ([ATC'17](https://thexsel.github.io/p/streambox/index.html)), with 3D-stacked memory ([ASPLOS'19](https://arxiv.org/abs/1901.01328)), and with Arm TrustZone ([ATC'19](https://arxiv.org/abs/1808.05078)).
 
