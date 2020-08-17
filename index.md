@@ -1,8 +1,8 @@
 ## Felix Xiaozhu Lin   林 小竹
 
-Asst. Prof. | PhD in CS | [CV](/cv.pdf) | [Contact](/contact.html)
+Associate Prof. | UVA Computer Science | [CV](/cv.pdf) | [Contact](/contact.html)
 
-I will move to UVA CS in Fall 2020. [details](/leaving.pdf) 
+I recently moved from Purdue to UVA. [details](/leaving.pdf) 
 
 PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automation (Tsinghua 2006). Grew up in Chongqing, known for its "3D-stacked" buildings. 
 
