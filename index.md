@@ -31,7 +31,7 @@ Mar 2019: **Overview** [slides](https://www.slideshare.net/secret/JS0VXXRm579Wnu
 <!-- **My _kenshō_ on systems research** (2018-12) [PDF]()
 -->
 
-I work with a group of students with ethusiasm in systems software. See [XSEL](http://xsel.rocks). 
+I work with a group of students with enthusiasm in systems software. See [XSEL](http://xsel.rocks). 
 
 Our current work bases on two premises: 
 
