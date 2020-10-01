@@ -1,24 +1,17 @@
 ### Contact
 
 ```
-xzl@purdue.edu
+felinxlin@virginia.edu
 ```
 
-**Office** EE324B  **Phone** 765-496-6610
+**Office** Olsson 267 **Phone** TBD
 
 **Mailing Address**
 
 ```
-PURDUE UNIV, ECE, EE BLDG
-465 NORTHWESTERN AVE
-WEST LAFAYETTE, IN 47907
+Felix Lin
+University of Virginia
+Olsson Hall, Room 267
+Charlottesville, VA 22903
 ```
 
-(Full version)
-```
-Purdue University
-School of Electrical and Computer Engineering
-Electrical Engineering Building
-465 Northwestern Ave.
-West Lafayette, Indiana 47907-2035
-```

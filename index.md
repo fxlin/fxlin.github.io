@@ -1,6 +1,8 @@
 ## Felix Xiaozhu Lin   林 小竹
 
-Asst. Prof. | PhD in CS | [CV](/cv.pdf) | [Contact](/contact.html)
+Associate. Prof. | PhD in CS | [CV](/cv.pdf) | [Contact](/contact.html)
+
+I am a William Wulf Faculty Fellow and Associate Professor of Computer Science, University of Virginia. 
 
 I will move to UVA CS in Fall 2020. [details](/leaving.pdf) 
 

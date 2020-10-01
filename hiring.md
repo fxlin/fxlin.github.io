@@ -1,3 +1,5 @@
+Sept 2020: this is to be updated soon. Stay tuned!
+
 XSEL is looking for PhD students who will be involved in defining and building novel operating system and runtime.
 
 We expect you to demonstrate a passion for understanding and building systems software.
