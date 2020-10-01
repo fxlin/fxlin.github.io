@@ -4,7 +4,7 @@ Associate Prof. | William Wulf Faculty Fellow | UVA Computer Science | [CV](/cv.
 
 Before moving to UVA, I spent six great years at Purdue. [details](/leaving.pdf) 
 
-PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automation (Tsinghua 2006). Grew up in Chongqing, known for its "3D-stacked" buildings :mountain_cableway: :department_store: :city_sunrise:
+PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automation (Tsinghua 2006). Grew up in Chongqing, known for its "3D-stacked" buildings.
 
 <!--- 
 **I care system software for addressing challenges raised by new workloads and new hardware. My recent work includes OS support for stream processing, for heterogeneous memory, and for wearable devices.**
