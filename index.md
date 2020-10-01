@@ -1,12 +1,10 @@
 ## Felix Xiaozhu Lin   林 小竹
 
-Associate. Prof. | PhD in CS | [CV](/cv.pdf) | [Contact](/contact.html)
+Associate Prof. | William Wulf Faculty Fellow | UVA Computer Science | [CV](/cv.pdf) | [Contact](/contact.html)
 
-I am a William Wulf Faculty Fellow and Associate Professor of Computer Science, University of Virginia. 
+Before moving to UVA, I spent six great years at Purdue. [details](/leaving.pdf) 
 
-I will move to UVA CS in Fall 2020. [details](/leaving.pdf) 
-
-PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automation (Tsinghua 2006). Grew up in Chongqing, known for its "3D-stacked" buildings. 
+PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automation (Tsinghua 2006). Grew up in Chongqing, known for its "3D-stacked" buildings :mountain_cableway: :department_store: :city_sunrise:
 
 <!--- 
 **I care system software for addressing challenges raised by new workloads and new hardware. My recent work includes OS support for stream processing, for heterogeneous memory, and for wearable devices.**
@@ -33,7 +31,7 @@ Mar 2019: **Overview** [slides](https://www.slideshare.net/secret/JS0VXXRm579Wnu
 <!-- **My _kenshō_ on systems research** (2018-12) [PDF]()
 -->
 
-I work with a group of students with ethusiasm in systems software. See [XSEL](http://xsel.rocks). 
+I work with a group of students with enthusiasm in systems software. See [XSEL](http://xsel.rocks). 
 
 Our current work bases on two premises: 
 
