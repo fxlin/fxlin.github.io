@@ -1,7 +1,7 @@
 ### Contact
 
 ```
-felinxlin@virginia.edu
+felixlin@virginia.edu
 ```
 
 **Office** Olsson 267 **Phone** TBD
