@@ -18,10 +18,10 @@ Our group has a strong builder culture. We expect you to show a passion in build
 
 Join us in the beautiful Virginia! 
 
-<!---- https://dailyprogress.com/uva-aerial/image_aa006d50-0868-11e4-b818-001a4bcf6878.html -->
+<!---- https://dailyprogress.com/uva-aerial/image_aa006d50-0868-11e4-b818-001a4bcf6878.html The UVA campus in the Fall, [credits](https://dailyprogress.com/uva-aerial/image_aa006d50-0868-11e4-b818-001a4bcf6878.html) -->
 
-<img src="img\aerial.jpg" alt="img/aerial.img" style="zoom:50%;" />
-The UVA campus in the Fall, [credits](https://dailyprogress.com/uva-aerial/image_aa006d50-0868-11e4-b818-001a4bcf6878.html)
+<img src="img\sunset_grounds_ss_18.jpg" alt="img/aerial.img" style="zoom: 33%;" />
+The UVA campus at sunset, with Blue Ridge mountains in the back. Credit: UVA.
 
 ## Research ([Publication](https://thexsel.github.io/papers.html))
 
