@@ -72,6 +72,6 @@ At Purdue, I work with a group of graduate students who share the above opinion 
 | [Name in Chinese](/img/name.jpg)
 
 <img src="img\forlovers.jpg" alt="img/forlovers.img" style="zoom:50%;" />
-We are one-hour from the gorgeous Shenandoah national park. Unlimited outdoor fun. [Photo credits](http://virginia.org)
+We are one-hour from the gorgeous Shenandoah national park. Unlimited outdoor fun. Photo: http://virginia.org
 
 
