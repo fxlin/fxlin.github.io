@@ -10,6 +10,19 @@ PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automat
 **I care system software for addressing challenges raised by new workloads and new hardware. My recent work includes OS support for stream processing, for heterogeneous memory, and for wearable devices.**
 -->
 
+**We are recruiting!**
+
+At UVA CS, my group is looking for PhD students for building novel software systems. 
+
+Our group has a strong builder culture. We expect you to show a passion in building experimental software, too!
+
+Join us in the beautiful Virginia! 
+
+<!---- https://dailyprogress.com/uva-aerial/image_aa006d50-0868-11e4-b818-001a4bcf6878.html -->
+
+<img src="img\aerial.jpg" alt="img/aerial.img" style="zoom:50%;" />
+The UVA campus in the Fall, [credits](https://dailyprogress.com/uva-aerial/image_aa006d50-0868-11e4-b818-001a4bcf6878.html)
+
 ## Research ([Publication](https://thexsel.github.io/papers.html))
 
 <!--- 
@@ -59,11 +72,11 @@ At Purdue, I work with a group of graduate students who share the above opinion 
 [Need a reference letter from me?](/letter-policy.pdf)
 | [How do I determine final grades for undergrad classes?](/final-grades.pdf)
 | [How do we work with undergrads in research?](/undergrad-research.pdf)
-| [Why Purdue Computer Eng?](https://engineering.purdue.edu/ComputerEngineering/) 
-| Center for Resilient Infrastructures, Systems, and Processes ([CRISP](https://engineering.purdue.edu/CRISP))
-| [CompE graduate seminar](/gradtalks/index.html)
 | [To PhD applicants](/hiring.html)
 | [To signature requesters](/sign.html)
 | [Name in Chinese](/img/name.jpg)
+
+<img src="img\forlovers.jpg" alt="img/forlovers.img" style="zoom:50%;" />
+UVA is one-hour away from the gorgeous Shenandoah national park. Tons of outdoor fun! [Photo credits](http://virginia.org)
 
 

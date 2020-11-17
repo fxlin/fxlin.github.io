@@ -1,19 +1,9 @@
 **Sept 2020: this is to be updated soon. Stay tuned!**
 
-XSEL is looking for PhD students who will be involved in defining and building novel operating system and runtime.
+At UVA CS, we are recruiting PhD students for defining and building novel software systems. 
 
-We expect you to demonstrate a passion for understanding and building systems software.
-Our group has a strong builder culture. 
+Our group has a strong builder culture. We expect you to have a passion for building and tinkering with experimental software!
 
-When you apply, please keep in mind that we are in Purdue ECE and computer engineering.
+Send me 
 
-**Notes** 
 
-A few words on the PhD admission requirements:
-
-* The Dec.15 [application deadline](https://engineering.purdue.edu/ECE/Academics/Graduates/Admissions/Deadlines.html) concerns _priority_ admission. You are encouraged to apply even after this date. 
-  
-* Purdue ECE requires GRE, but the scores specified on this [page](https://www.purdue.edu/gradschool/prospective/gradrequirements/westlafayette/ecen.html) are _historical average_ values, not minimum requirements. 
-You are encouraged to apply even if your GRE scores are below these average values.
-
-Contact me for more details.
