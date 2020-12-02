@@ -4,7 +4,7 @@
 felixlin@virginia.edu
 ```
 
-**Office** Olsson 267 **Phone** TBD
+**Office** Olsson 267 **Phone** 434.982.2200
 
 **Mailing Address**
 
