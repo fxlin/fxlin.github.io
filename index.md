@@ -12,7 +12,7 @@ PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automat
 
 At UVA CS, my group is looking for PhD students for building novel software systems. Our group has a strong builder culture. We expect you to show a passion in building experimental software, too.
 
-Join us in the beautiful Virginia! 
+Join us in beautiful Virginia! 
 
 <!---- https://dailyprogress.com/uva-aerial/image_aa006d50-0868-11e4-b818-001a4bcf6878.html The UVA campus in the Fall, [credits](https://dailyprogress.com/uva-aerial/image_aa006d50-0868-11e4-b818-001a4bcf6878.html) -->
 
@@ -72,6 +72,6 @@ At Purdue, I work with a group of graduate students who share the above opinion 
 | [Name in Chinese](/img/name.jpg)
 
 <img src="img\forlovers.jpg" alt="img/forlovers.img" style="zoom:50%;" />
-We are one-hour from the gorgeous Shenandoah national park. Unlimited outdoor fun. [Photo credits](http://virginia.org)
+We are one-hour from the gorgeous Shenandoah national park. Unlimited outdoor fun. Photo: http://virginia.org
 
 
