@@ -8,6 +8,10 @@ PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automat
 **I care system software for addressing challenges raised by new workloads and new hardware. My recent work includes OS support for stream processing, for heterogeneous memory, and for wearable devices.**
 -->
 
+**Efforts on refreshing OS education** (UVA CS4414/CS6456). *Principles*: experience-based, with modern contents, and fun. *Summary*: four projects including an Arm64 baremetal kernel, multicore, trusted execution, and filesystem forensics.
+
+The first offering in Fall'20 as CS6456. Well received!  Materials & student feedbacks [here](https://github.com/fxlin/os-course). 
+
 **We are recruiting!**
 
 At UVA CS, my group is looking for PhD students for building novel software systems. Our group has a strong builder culture. We expect you to show a passion in building experimental software, too.
@@ -18,6 +22,8 @@ Join us in beautiful Virginia!
 
 <img src="img\sunset_grounds_ss_18.jpg" alt="img/aerial.img" style="zoom: 33%;" />
 The UVA campus at sunset, with Blue Ridge mountains in the back. Credit: UVA.
+
+
 
 ## Research ([Publication](https://thexsel.github.io/papers.html))
 
