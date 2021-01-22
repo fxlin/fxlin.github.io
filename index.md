@@ -10,7 +10,7 @@ PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automat
 
 **Efforts on refreshing OS education** (UVA CS4414/CS6456). *Principles*: experience-based, with modern contents, and fun. *Summary*: four projects including an Arm64 baremetal kernel, multicore, trusted execution, and filesystem forensics.
 
-The first offering in Fall'20 as CS6456. Well received!  [Materials](https://github.com/fxlin/os-course/tree/master/docs); [student feedbacks](Report for CS 6456 - 001 Operating Systems Xiaozhu Lin_3E9C532B-F1EE-494A-A44F-3B9766CB3912en-US.pdf); [schedule](https://github.com/fxlin/os-course/blob/master/cs6456-fall20-schedule.pdf)
+The first offering in Fall'20 as CS6456. Well received!  [Materials](https://github.com/fxlin/os-course/tree/master/docs); [student feedbacks](https://github.com/fxlin/os-course/blob/master/Report%20for%20CS%206456%20-%20001%20Operating%20Systems%20Xiaozhu%20Lin_3E9C532B-F1EE-494A-A44F-3B9766CB3912en-US.pdf); [schedule](https://github.com/fxlin/os-course/blob/master/cs6456-fall20-schedule.pdf)
 
 **We are recruiting!**
 
