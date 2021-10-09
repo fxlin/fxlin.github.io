@@ -14,8 +14,7 @@ The first offering in Fall'20 as CS6456. Well received!  [Materials](https://git
 
 **We are recruiting!**
 Recent interests: 
-* 3D vision, perception-control codesign (in autonomous driving & robotics)
-* Graph neural networks: algorithm x system x hardware (in collboration w/ Profs. Kevin Skadron & Jundong Li)
+* Geometric deep learning, algorithm x system x hardware: 3D vision, graph neural networks, etc. 
 * Efficient NLP, on-device tuning of BERT/GPT (in collboration w/ Prof. Yangfeng Ji)
 * Other systems topics, see below. 
 
