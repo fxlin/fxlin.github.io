@@ -13,6 +13,11 @@ PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automat
 The first offering in Fall'20 as CS6456. Well received!  [Materials](https://github.com/fxlin/os-course/tree/master/docs); [student feedbacks](https://github.com/fxlin/os-course/blob/master/Report%20for%20CS%206456%20-%20001%20Operating%20Systems%20Xiaozhu%20Lin_3E9C532B-F1EE-494A-A44F-3B9766CB3912en-US.pdf); [schedule](https://github.com/fxlin/os-course/blob/master/cs6456-fall20-schedule.pdf)
 
 **We are recruiting!**
+Recent interests: 
+* 3D vision, perception-control codesign (in autonomous driving & robotics)
+* Graph neural networks: algorithm x system x hardware (in collboration w/ Profs. Kevin Skadron & Jundong Li)
+* Efficient NLP, on-device tuning of BERT/GPT (in collboration w/ Prof. Yangfeng Ji)
+* Other systems topics, see below. 
 
 At UVA CS, my group is looking for PhD students for building novel software systems. Our group has a strong builder culture. We expect you to show a passion in building experimental software, too.
 
