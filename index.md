@@ -11,7 +11,7 @@ PhD in Computer Science (Rice 2014), MS in CS (Tsinghua 2008), and BS in Automat
 **We are recruiting!**
 Recent interests: 
 * Geometric deep learning, algorithm x system x hardware: 3D vision, graph neural networks, etc. 
-* Efficient NLP, on-device tuning of BERT/GPT (in collboration w/ Prof. Yangfeng Ji)
+* Efficient NLP, on-device BERT/GPT
 * Other systems topics, see below. 
 
 At UVA CS, my group is looking for PhD students for building novel software systems. Our group has a strong builder culture. We expect you to show a passion in building experimental software, too.
