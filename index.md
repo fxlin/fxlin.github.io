@@ -14,7 +14,9 @@ Recent interests:
 * Efficient NLP, on-device BERT/GPT
 * Other systems topics, see below. 
 
-At UVA CS, my group is looking for PhD students for building novel software systems. Our group has a strong builder culture. We expect you to show a passion in building experimental software, too.
+At UVA CS, my group is looking for PhD students for building novel software. Our group has a strong builder culture. 
+
+See our [group page](http://xsel.rocks) for current students and projects.
 
 Join us in beautiful Virginia!
 
@@ -64,8 +66,6 @@ Our current work bases on two premises:
 
 
 My PhD work was on OS kernels for smartphones, e.g. the [K2 project](http://www.k2os.org) which won an award in ASPLOS'14. I continue to care about mobile/wearables, e.g. deep learning on them ([WWW'19](https://arxiv.org/abs/1812.05448) & [MobiCom'18](https://arxiv.org/abs/1712.01670)). 
-
-See our [group page](http://xsel.rocks) for all projects.
 
 <!---
 At Purdue, I work with a group of graduate students who share the above opinion (sometimes). See our [group page](http://xsel.rocks) for all the projects.
