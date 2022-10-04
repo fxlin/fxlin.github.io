@@ -36,21 +36,7 @@ I care about systems software -- mostly for computers consuming power roughly in
 Today they include sensors, smart phones/devices, and edge servers. 
 -->
 
-I care about systems software. 
-
-Jun 2020: **"OS frontiers in the AI era"** For UVA graduate students. [slides](https://www.slideshare.net/secret/4GjP2jyTXuau6x) [video](https://youtu.be/Ntm388nz2CY)
-
-<a href="https://www.slideshare.net/secret/4GjP2jyTXuau6x/">
-<img src="/img/3flavors.png" width="200">
-</a>  
-
-
-Mar 2019: **Overview** [slides](https://www.slideshare.net/secret/JS0VXXRm579Wnu)
-
-<!-- **My _kenshō_ on systems research** (2018-12) [PDF]()
--->
-
-I work with a group of students with enthusiasm in systems software. See [XSEL](http://xsel.rocks). 
+I care about systems software. I work with a group of students with enthusiasm in systems software. See [XSEL](http://xsel.rocks). 
 
 Our current work bases on two premises: 
 
@@ -69,9 +55,12 @@ Our current work bases on two premises:
 
 My PhD work was on OS kernels for smartphones, e.g. the [K2 project](http://www.k2os.org) which won an award in ASPLOS'14. I continue to care about mobile/wearables, e.g. deep learning on them ([WWW'19](https://arxiv.org/abs/1812.05448) & [MobiCom'18](https://arxiv.org/abs/1712.01670)). 
 
-<!---
-At Purdue, I work with a group of graduate students who share the above opinion (sometimes). See our [group page](http://xsel.rocks) for all the projects.
--->
+## Doc, code, talks
+* [Notes](https://bakhi.github.io/mobileGPU/) on hacking mobile GPUs
+* [GPUReplay](https://github.com/bakhi/GPUReplay)
+* [Driverlet](https://zaxguo.github.io/drvlet/index.html)
+* Jun 2020: **"OS frontiers in the AI era"** For UVA graduate students. [slides](https://www.slideshare.net/secret/4GjP2jyTXuau6x) [video](https://youtu.be/Ntm388nz2CY)
+* Mar 2019: **Overview** [slides](https://www.slideshare.net/secret/JS0VXXRm579Wnu)
 
 ## Useful 
 
