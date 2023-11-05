@@ -8,11 +8,14 @@ PhD (Rice '14); MS/BS ('08/'06 Tsinghua). Grew up in a small midwestern town in 
 **I care system software for addressing challenges raised by new workloads and new hardware. My recent work includes OS support for stream processing, for heterogeneous memory, and for wearable devices.**
 -->
 
-**We are recruiting!**
-Recent interests: 
-* Geometric deep learning, algorithm x system x hardware: 3D vision, graph neural networks, etc. 
-* Efficient NLP, on-device BERT/GPT
-* Various old-fashioned, hardcore OS stuffs 
+**Fall 2024: We are recruiting!**
+(Recent projects) algo x sys x hw for: 
+
+* LLMs: on-device execution, private data selection & training 
+* Speech: execution of deep models on <$20 hardware
+* Stable diffusion: fast sampling on consumer CPU/GPU  
+* Geometric deep learning: 3D vision, graph neural networks, etc. 
+* Various old-fashioned, hardcore OS stuffs (see pubs below) 
 
 I led a group of graduate/undergraduate students who are execited by building cool software stuffs. 
 
@@ -29,7 +32,7 @@ The UVA campus at sunset, with Blue Ridge mountains in the back. Credit: UVA.
 
 The first offering in Fall'20 as CS6456. Well received!  [Materials](https://github.com/fxlin/os-course/tree/master/docs); [student feedbacks](https://github.com/fxlin/os-course/blob/master/Report%20for%20CS%206456%20-%20001%20Operating%20Systems%20Xiaozhu%20Lin_3E9C532B-F1EE-494A-A44F-3B9766CB3912en-US.pdf); [schedule](https://github.com/fxlin/os-course/blob/master/cs6456-fall20-schedule.pdf)
 
-## Research ([Publication](https://thexsel.github.io/papers.html))
+## Research ([Publications](https://thexsel.github.io/papers.html))
 
 <!--- 
 I care about systems software -- mostly for computers consuming power roughly in the (10 Milliwatt, 500 Watt) range. 
@@ -72,5 +75,4 @@ My PhD work was on OS kernels for smartphones, e.g. the [K2 project](http://www.
 
 <img src="img\forlovers.jpg" alt="img/forlovers.img" style="zoom:50%;" />
 We are one-hour from the gorgeous Shenandoah national park. Unlimited outdoor fun. Photo: http://virginia.org
-
 
