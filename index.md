@@ -8,6 +8,8 @@ PhD (Rice '14); MS/BS ('08/'06 Tsinghua). Grew up in a small midwestern town in 
 **I care system software for addressing challenges raised by new workloads and new hardware. My recent work includes OS support for stream processing, for heterogeneous memory, and for wearable devices.**
 -->
 
+**Oct 19/20 2024:** Prof. [Yangfeng Ji](https://yangfengji.net/) and I organized **the 1st LLM workshop at UVA**. Lots of [fun and insights](https://uvanlp.org/llm-workshop-2024/). 
+
 **Fall 2024: We are recruiting!**
 (Recent projects) algo x sys x hw for: 
 
