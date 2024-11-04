@@ -16,11 +16,13 @@ PhD (Rice '14); MS/BS ('08/'06 Tsinghua). Grew up in a small midwestern town in 
 **Fall 2024: We are recruiting!**
 (Recent projects) algo x sys x hw for: 
 
-* LLMs: on-device execution, private data selection & training 
-* Speech: execution of deep models on $35 hardware
+* On-device LLMs & Speech: on $35 hardware
 * Stable diffusion: fast sampling on consumer CPU/GPU  
-* Geometric deep learning: 3D vision, graph neural networks, etc. 
-* Various old-fashioned, hardcore OS stuffs (see pubs below) 
+* Various old-fashioned, hardcore OS stuffs (see pubs below)
+
+See our demo: LLM (RWKV) on $30 hardware, under 3 Watt
+
+https://github.com/user-attachments/assets/3ff2dea0-e8e2-428c-ae50-8fa0e65eb2cf
 
 I led a group of graduate/undergraduate students who are execited by building cool software stuffs. 
 
