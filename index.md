@@ -7,9 +7,7 @@ PhD (Rice '14); MS/BS ('08/'06 Tsinghua). Grew up in a small midwestern town in 
 <!--- 
 **I care system software for addressing challenges raised by new workloads and new hardware. My recent work includes OS support for stream processing, for heterogeneous memory, and for wearable devices.**
 -->
-**Spring 2025:** A new OS course: from boot to DOOM. 
-
-A guided journey starting from bare-metal hardware to a fully functional OS capable of running multiple applications, including Mario and DOOM, on a multicore processor.
+**Spring 2025:** A new OS course. A guided journey starting from bare-metal hardware to a fully functional OS capable of running multiple applications, including Mario and DOOM, on a multicore processor.
 
 ![collage-with-coursetitle](https://github.com/user-attachments/assets/c2249a0c-4146-447a-ba87-f2c8d6b4b498)
 
