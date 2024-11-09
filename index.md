@@ -20,7 +20,7 @@ PhD (Rice '14); MS/BS ('08/'06 Tsinghua). Grew up in a small midwestern town in 
 * Stable diffusion: fast sampling on consumer CPU/GPU  
 * Various old-fashioned, hardcore OS stuffs (see pubs below)
 
-See our demo: LLM (RWKV) on $30 hardware, under 3 Watt
+See our demo: LLM (RWKV) on $30 hardware, under 3 Watt. [Github repo](https://github.com/fxlin/llm-pi-zero)
 
 <iframe width="560" height="315" src="https://github.com/user-attachments/assets/3ff2dea0-e8e2-428c-ae50-8fa0e65eb2cf" frameborder="0" allowfullscreen></iframe>
 
