@@ -16,7 +16,7 @@ PhD (Rice '14); MS/BS ('08/'06 Tsinghua). Grew up in a small midwestern town in 
 **Fall 2024: We are recruiting!**
 (Recent projects) algo x sys x hw for: 
 
-* On-device LLMs & Speech: on $35 hardware
+* On-device LLMs & Speech: on low-cost hardware
 * Stable diffusion: fast sampling on consumer CPU/GPU  
 * Various old-fashioned, hardcore OS stuffs (see pubs below)
 
