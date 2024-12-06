@@ -11,8 +11,8 @@ felixlin@virginia.edu
 ```
 Felix Lin
 University of Virginia
-Olsson Hall, Room 267
-151 Engineer's Way
-Charlottesville, VA 22903
+Rice Hall, Room 426
+85 Engineer's Way
+Charlottesville, VA 22904
 ```
 
