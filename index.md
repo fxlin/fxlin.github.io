@@ -22,7 +22,7 @@ PhD (Rice '14); MS/BS ('08/'06 Tsinghua). Grew up in a small midwestern town in 
 
 See our demo: LLM (RWKV) on $30 hardware, under 3 Watt. [Github repo](https://github.com/fxlin/llm-pi-zero)
 
-![rwkv-collage](https://github.com/user-attachments/assets/1ed2ed55-6b83-459f-b4c2-6878437e70fd)
+![collage2](https://github.com/user-attachments/assets/d1e47e41-1b96-4b3d-b610-0814e4e3cb6d)
 
 
 <iframe width="560" height="315" src="https://github.com/user-attachments/assets/3ff2dea0-e8e2-428c-ae50-8fa0e65eb2cf" frameborder="0" allowfullscreen></iframe>
