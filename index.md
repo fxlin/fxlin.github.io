@@ -20,14 +20,19 @@ PhD (Rice '14); MS/BS ('08/'06 Tsinghua). Grew up in a small midwestern town in 
 * Stable diffusion: fast sampling on consumer CPU/GPU  
 * Various old-fashioned, hardcore OS stuffs (see pubs below)
 
-See our demo: LLM (RWKV) on $30 hardware, under 3 Watt. [Github repo](https://github.com/fxlin/llm-pi-zero)
+### Demo 1. LLM (RWKV) on $30 hardware, under 3 Watt. [Github repo](https://github.com/fxlin/llm-pi-zero)
 
 ![collage2](https://github.com/user-attachments/assets/d1e47e41-1b96-4b3d-b610-0814e4e3cb6d)
-
 
 <iframe width="560" height="315" src="https://github.com/user-attachments/assets/3ff2dea0-e8e2-428c-ae50-8fa0e65eb2cf" frameborder="0" allowfullscreen></iframe>
 
 https://github.com/user-attachments/assets/3ff2dea0-e8e2-428c-ae50-8fa0e65eb2cf
+
+### Demo 2. Whisper streaming on Macbook Air, with 1 sec of delay. Total SoC power ~7 Watt. 
+
+<iframe width="560" height="315" src="https://github.com/user-attachments/assets/ad59f529-3567-4236-aabb-cca3ae0eeff8" frameborder="0" allowfullscreen></iframe>
+
+https://github.com/user-attachments/assets/ad59f529-3567-4236-aabb-cca3ae0eeff8
 
 I led a group of graduate/undergraduate students who are execited by building cool software stuffs. 
 
