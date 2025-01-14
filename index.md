@@ -7,20 +7,18 @@ PhD (Rice '14); MS/BS ('08/'06 Tsinghua). Grew up in a small midwestern town in 
 <!--- 
 **I care system software for addressing challenges raised by new workloads and new hardware. My recent work includes OS support for stream processing, for heterogeneous memory, and for wearable devices.**
 -->
-**Spring 2025:** A new OS course. A guided journey starting from bare-metal hardware to a fully functional OS capable of running multiple applications, including Mario and DOOM, on a multicore processor.
+
+## A new OS - "Proto"
+
+A guided journey starting from bare-metal hardware to a fully functional OS capable of running multiple applications, including Mario and DOOM, on a multicore processor.
 
 ![collage-with-coursetitle](https://github.com/user-attachments/assets/c2249a0c-4146-447a-ba87-f2c8d6b4b498)
 
+## 1st LLM workshop at UVA 
+
 **Oct 19/20 2024:** Prof. [Yangfeng Ji](https://yangfengji.net/) and I organized **the 1st LLM workshop at UVA**. Lots of [fun and insights](https://uvanlp.org/llm-workshop-2024/). 
 
-**Fall 2024: We are recruiting!**
-(Recent projects) algo x sys x hw for: 
-
-* On-device LLMs & Speech: on low-cost hardware
-* Stable diffusion: fast sampling on consumer CPU/GPU  
-* Various old-fashioned, hardcore OS stuffs (see pubs below)
-
-### Demo 1. LLM (RWKV) on $30 hardware, under 3 Watt. [Github repo](https://github.com/fxlin/llm-pi-zero)
+## Demo -- LLM (RWKV) on $30 hardware, under 3 Watt. [Github repo](https://github.com/fxlin/llm-pi-zero)
 
 ![collage2](https://github.com/user-attachments/assets/d1e47e41-1b96-4b3d-b610-0814e4e3cb6d)
 
@@ -28,11 +26,20 @@ PhD (Rice '14); MS/BS ('08/'06 Tsinghua). Grew up in a small midwestern town in 
 
 https://github.com/user-attachments/assets/3ff2dea0-e8e2-428c-ae50-8fa0e65eb2cf
 
-### Demo 2. Whisper streaming on Macbook Air, with 1 sec of delay. Total SoC power ~7 Watt. 
+## Demo -- Whisper streaming on Macbook Air, with 1 sec of delay. Total SoC power ~7 Watt. 
 
 <iframe width="560" height="315" src="https://github.com/user-attachments/assets/ad59f529-3567-4236-aabb-cca3ae0eeff8" frameborder="0" allowfullscreen></iframe>
 
 https://github.com/user-attachments/assets/ad59f529-3567-4236-aabb-cca3ae0eeff8
+
+## **Fall 2024: We are recruiting!**
+(Recent projects) algo x sys x hw for: 
+
+* On-device LLMs & Speech: on low-cost hardware
+* Stable diffusion: fast sampling on consumer CPU/GPU  
+* Various old-fashioned, hardcore OS stuffs (see pubs below)
+
+## My group
 
 I led a group of graduate/undergraduate students who are execited by building cool software stuffs. 
 
