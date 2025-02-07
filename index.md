@@ -14,11 +14,7 @@ A guided journey starting from bare-metal hardware to a fully functional OS capa
 
 ![collage-with-coursetitle](https://github.com/user-attachments/assets/c2249a0c-4146-447a-ba87-f2c8d6b4b498)
 
-## 1st LLM workshop at UVA 
-
-**Oct 19/20 2024:** Prof. [Yangfeng Ji](https://yangfengji.net/) and I organized **the 1st LLM workshop at UVA**. Lots of [fun and insights](https://uvanlp.org/llm-workshop-2024/). 
-
-## Demo -- LLM (RWKV) on $30 hardware, under 3 Watt. [Github repo](https://github.com/fxlin/llm-pi-zero)
+## LLM (RWKV) on $30 hardware, under 3 Watt. [Github](https://github.com/fxlin/llm-pi-zero) [arxiv](https://arxiv.org/abs/2412.10856)
 
 ![collage2](https://github.com/user-attachments/assets/d1e47e41-1b96-4b3d-b610-0814e4e3cb6d)
 
@@ -26,13 +22,17 @@ A guided journey starting from bare-metal hardware to a fully functional OS capa
 
 https://github.com/user-attachments/assets/3ff2dea0-e8e2-428c-ae50-8fa0e65eb2cf
 
-## Demo -- Whisper streaming on Macbook Air, with 1 sec of delay. Total SoC power ~7 Watt. 
-
+## Whisper streaming on Macbook Air, with 1 sec of delay. Total SoC power ~7 Watt. [arxiv](https://arxiv.org/pdf/2412.11272)
+ 
 <iframe width="560" height="315" src="https://github.com/user-attachments/assets/ad59f529-3567-4236-aabb-cca3ae0eeff8" frameborder="0" allowfullscreen></iframe>
 
 https://github.com/user-attachments/assets/ad59f529-3567-4236-aabb-cca3ae0eeff8
 
-## **Fall 2024: We are recruiting!**
+## 1st LLM workshop at UVA (Oct 19/20 2024)
+
+Prof. [Yangfeng Ji](https://yangfengji.net/) and I organized **the 1st LLM workshop at UVA**. https://uvanlp.org/llm-workshop-2024/. 
+
+## Fall 2024: We are recruiting
 (Recent projects) algo x sys x hw for: 
 
 * On-device LLMs & Speech: on low-cost hardware
