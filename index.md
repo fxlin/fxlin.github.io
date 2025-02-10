@@ -30,7 +30,7 @@ https://github.com/user-attachments/assets/ad59f529-3567-4236-aabb-cca3ae0eeff8
 
 ## 1st LLM workshop at UVA (Oct 19/20 2024)
 
-Prof. [Yangfeng Ji](https://yangfengji.net/) and I organized **the 1st LLM workshop at UVA**. https://uvanlp.org/llm-workshop-2024/. 
+Prof. [Yangfeng Ji](https://yangfengji.net/) and I organized [the 1st LLM workshop at UVA](https://uvanlp.org/uva-llm-workshop/).
 
 ## Fall 2024: We are recruiting
 (Recent projects) algo x sys x hw for: 
