@@ -14,7 +14,9 @@ A guided journey starting from bare-metal hardware to a fully functional OS capa
 
 ![collage-with-coursetitle](https://github.com/user-attachments/assets/c2249a0c-4146-447a-ba87-f2c8d6b4b498)
 
-## LLM (RWKV) on $30 hardware, under 3 Watt. [Github](https://github.com/fxlin/llm-pi-zero) [arxiv](https://arxiv.org/abs/2412.10856)
+## LLM (RWKV) on $30 hardware, under 3 Watt. 
+
+### [Model code](https://github.com/wonkyoc/RWKV-Lite/tree/clean-public) | [Demo code](https://github.com/fxlin/llm-pi-zero) | [Paper](https://arxiv.org/abs/2412.10856)
 
 ![collage2](https://github.com/user-attachments/assets/d1e47e41-1b96-4b3d-b610-0814e4e3cb6d)
 
