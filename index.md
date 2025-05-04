@@ -8,9 +8,11 @@ PhD (Rice '14); MS/BS ('08/'06 Tsinghua). Grew up in a small midwestern town in 
 **I care system software for addressing challenges raised by new workloads and new hardware. My recent work includes OS support for stream processing, for heterogeneous memory, and for wearable devices.**
 -->
 
-## A new OS - "Proto"
+## A new instructional OS
 
 A guided journey starting from bare-metal hardware to a fully functional OS capable of running multiple applications, including Mario and DOOM, on a multicore processor.
+
+### [Github](https://github.com/fxlin/uva-os-main) | [Paper](https://arxiv.org/abs/2504.17984)
 
 ![collage-with-coursetitle](https://github.com/user-attachments/assets/c2249a0c-4146-447a-ba87-f2c8d6b4b498)
 
@@ -25,7 +27,7 @@ A guided journey starting from bare-metal hardware to a fully functional OS capa
 https://github.com/user-attachments/assets/3ff2dea0-e8e2-428c-ae50-8fa0e65eb2cf
 
 ## Whisper streaming on Macbook Air, with 1 sec of delay. Total SoC power ~7 Watt. [arxiv](https://arxiv.org/pdf/2412.11272)
- 
+
 <iframe width="560" height="315" src="https://github.com/user-attachments/assets/ad59f529-3567-4236-aabb-cca3ae0eeff8" frameborder="0" allowfullscreen></iframe>
 
 https://github.com/user-attachments/assets/ad59f529-3567-4236-aabb-cca3ae0eeff8
