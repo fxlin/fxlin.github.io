@@ -28,7 +28,7 @@ https://github.com/user-attachments/assets/3ff2dea0-e8e2-428c-ae50-8fa0e65eb2cf
 
 ## Whisper streaming on Macbook Air, with 1 sec of delay. Total SoC power ~7 Watt. 
 
-### [Code](https://github.com/rxpwang/whisper-1.6.2) | [Paper](https://arxiv.org/pdf/2412.11272)
+### [Code](https://github.com/rxpwang/whisper-1.6.2) | [Paper](https://arxiv.org/abs/2412.11272)
 
 <iframe width="560" height="315" src="https://github.com/user-attachments/assets/ad59f529-3567-4236-aabb-cca3ae0eeff8" frameborder="0" allowfullscreen></iframe>
 
