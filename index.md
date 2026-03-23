@@ -4,6 +4,8 @@ Associate Prof. | William Wulf Faculty Fellow | UVA Computer Science | [CV](/cv.
 
 PhD (Rice '14); MS/BS ('08/'06 Tsinghua). Grew up in a small midwestern town in China. Before UVA, six great years at [Purdue](./leaving.pdf).
 
+**Since Fall 2025: I am away from UVA and at ByteDance (SJC) working on scaling LLM inference**
+
 <!--- 
 **I care system software for addressing challenges raised by new workloads and new hardware. My recent work includes OS support for stream processing, for heterogeneous memory, and for wearable devices.**
 -->
